@@ -2,7 +2,7 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.0 A16.4
+Version: v1.0 A16.4  
 Contact: mrcerealguy@gmx.de
 
 ## Description
