@@ -2,7 +2,7 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.0 A16.4
+Version: v1.1 (A16.4)
 Contact: mrcerealguy@gmx.de
 
 ## Description
@@ -14,3 +14,26 @@ Changes in this mod:
 - Modified Taza's stone axe for grinding resources
 - Added recipe for modified Taza's stone axe
 - Added start quest "Craft Taza's stone axe"
+- Pick up crafting stations with a wrench
+- Pick up spotlights with a wrench
+
+## Install mod
+
+Please use the **7 Days To Die Mod Launcher** to install **Taza's Grave**.
+
+```
+http://7d2dmodlauncher.org/
+```
+
+Or download it manually and extract the zip file in your 7D2D folder.
+
+```
+https://github.com/MrCerealGuy/Tazas-Grave/archive/master.zip
+```
+
+Optional:
+For better Zombie texture I recommend this patch from SphereII.
+
+```
+https://github.com/SphereII/7D2DPatches/raw/master/Alpha16.4/ZombieTextures/ZombieTextureOverhaul.zip
+```
