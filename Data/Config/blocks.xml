@@ -13976,12 +13976,12 @@ kind of free
 	<property name="HeatMapStrength" value="0.5"/>
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
-	<property name="RecipeList" value="player,backpack"/>
+	<!--<property name="RecipeList" value="backpack, workbench"/>-->
 	<!--<property name="CraftTimeMultiplier" value="0.5,1"/>-->
 	<property name="Stacknumber" value="1"/>
 	<property class="Workstation">
 		<property name="Modules" value="tools,output"/>
-		<property name="CraftingAreaRecipes" value="player,backpack"/>
+		<property name="CraftingAreaRecipes" value="player,workbench"/>
 	</property>
 	<property class="RepairItems">
 		<property name="forgedIron" value="25"/>

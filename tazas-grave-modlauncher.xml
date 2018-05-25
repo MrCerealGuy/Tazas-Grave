@@ -10,19 +10,20 @@
 			<Admin>MrCerealGuy</Admin>										<!-- Admin Name(s). Display purposes only.  -->				
 			<AdminContact>mrcerealguy@gmx.de</AdminContact>  				<!-- Contact point, could also be URL. Display purposes only -->			
 			<WebSite>https://github.com/MrCerealGuy/Tazas-Grave</WebSite>	<!-- Server's web page, if available. Used as a web link. -->
-			<ReleaseNotes>https://github.com/MrCerealGuy/Tazas-Grave/releases/tag/v1.1</ReleaseNotes>	<!-- Link to a webpage that will show server information, including mods. Used as a web link. -->
+			<ReleaseNotes>https://github.com/MrCerealGuy/Tazas-Grave/releases/tag/v1.2</ReleaseNotes>	<!-- Link to a webpage that will show server information, including mods. Used as a web link. -->
 			<Downloads>
 				<Download>https://github.com/MrCerealGuy/Tazas-Grave/archive/master.zip</Download>
 				<Download>https://github.com/SphereII/7D2DPatches/raw/master/Alpha16.4/ZombieTextures/ZombieTextureOverhaul.zip</Download>
 			</Downloads>
 			<Description>
 Taza's Grave
-Version: v1.1 (A16.4)
+Version: v1.2 (A16.4)
 				
 Hello white settler in wasteland! If you love it to build great bases and you think grinding resources is wasted time, then you should give this mod a try. Your most important tool will be a powerful Taza's stone axe!
 
 Changes in this mod:
 
+- Added Simple UI by stedman420
 - Basic survival quests removed (experts don't need this)
 - Modified Taza's stone axe for grinding resources
 - Added recipe for modified Taza's stone axe
