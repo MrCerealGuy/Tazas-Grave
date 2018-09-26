@@ -2683,6 +2683,18 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="feather" count="1"/>
 </recipe>
 
+<recipe name="flamethrower" count="1" craft_area="assembly">
+	<ingredient name="flashlight02" count="0"/>
+	<ingredient name="partsflame_stock" count="1"/>
+	<ingredient name="partsflame_receiver" count="1"/>
+	<ingredient name="partsflame_barrel" count="1"/>
+	<ingredient name="partsflame_parts" count="1"/>
+</recipe>
+
+<recipe name="flamethrowerAmmo" count="1">
+	<ingredient name="gasCan" count="1"/>
+</recipe>
+
 </recipes>
 <!-- To do (maybe / later)
 <recipe name="steelArrowHead" count="1" craft_area="forge" craft_tool="calipers" material_based="true">

@@ -25,7 +25,7 @@
 
 <quests>
 
-	<!-- Basic Survival 1 - Craft a Bedroll /> -->
+	<!-- Basic Survival 1 - Craft Taza's Axe /> -->
 	<quest id="quest_BasicSurvival1" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival1" subtitle_key="quest_BasicSurvival1_subtitle" description_key="quest_BasicSurvival1_description" icon="ui_game_symbol_zombie" category_key="quest" difficulty="veryeasy" offer_key="quest_BasicSurvival_offer">
 		<!--<action type="ShowTip" value="tutorialTipQuest02" />-->
 		<!--<action type="TrackQuest" />-->
@@ -38,11 +38,42 @@
 		<objective type="FetchKeep" id="feather" value="1" />
 		<objective type="Craft" id="tazasStoneaxe" value="1" />
 
-		<!--<reward type="Item" id="tazasStoneaxe" value="300"/>-->
+		<reward type="Quest" id="quest_BasicSurvival2" />
     </quest>
+	
+	<!-- Basic Survival 2 - Gather a flamethrower schematic /> -->
+    <quest id="quest_BasicSurvival2" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival2" subtitle_key="quest_BasicSurvival2_subtitle" description_key="quest_BasicSurvival2_description" icon="ui_game_symbol_hammer" category_key="quest" offer_key="quest_BasicSurvival_offer" >
 
+		<objective type="FetchKeep" id="flamethrowerSchematics" value="1" />
+		
+		<reward type="Quest" id="quest_BasicSurvival3" />
+    </quest>
+	
+	<!-- Basic Survival 3 - Craft a flamethrower /> -->
+    <quest id="quest_BasicSurvival3" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival3" subtitle_key="quest_BasicSurvival3_subtitle" description_key="quest_BasicSurvival3_description" icon="ui_game_symbol_hammer" category_key="quest" offer_key="quest_BasicSurvival_offer" >
+
+		<objective type="FetchKeep" id="partsflame_stock" value="1" />
+		<objective type="FetchKeep" id="partsflame_receiver" value="1" />
+		<objective type="FetchKeep" id="partsflame_parts" value="1" />
+		<objective type="FetchKeep" id="partsflame_barrel" value="1" />
+		
+		<objective type="FetchKeep" id="flamethrower" value="1" />
+		
+		<reward type="Quest" id="challenge_burningdogs" />
+    </quest>
 	
 	<!-- CHALLENGES -->
+	<quest id="challenge_burningdogs" name_key="challenge_burningdogs" subtitle_key="challenge_burningdogs_subtitle" description_key="challenge_burningdogs_offer" icon="ui_game_symbol_knife"
+	repeatable="true" category_key="challenge" offer_key="challenge_burningdogs_offer" difficulty="medium">
+
+		<objective type="ZombieKill" id="animalZombieDog" value="25" />
+
+		<requirement type="Holding" id="flamethrower" />
+
+
+		<reward type="SkillPoints" value="2" />
+	</quest>
+
 	<quest id="challenge_silenceofthelambs" name_key="challenge_silenceofthelambs" subtitle_key="challenge_silenceofthelambs_subtitle" description_key="challenge_silenceofthelambs_offer" icon="ui_game_symbol_zombie"
 	repeatable="true" category_key="challenge" offer_key="challenge_silenceofthelambs_offer" difficulty="insane" >
 		<objective type="Time" value="1200" optional="true" />
