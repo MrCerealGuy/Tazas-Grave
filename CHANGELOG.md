@@ -10,7 +10,7 @@ v1.2 -> v1.3 (no WIPE required)
 - Added flamethrower ammo
 - Added flamethrower schematics
 - Added quest 'Flamethrower'
-- Added quest 'Burning zombie dogs'
+- Added challenge quest 'Burning zombie dogs'
 - Added ModInfo.xml
 
 v1.1 -> v1.2 (no WIPE required)

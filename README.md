@@ -20,7 +20,7 @@ Changes in this mod:
 - Added flamethrower and ammo
 - Added flamethrower schematic
 - Added quest 'Flamethrower'
-- Added quest 'Burning zombie dogs'
+- Added challenge quest 'Burning zombie dogs'
 - Toilets and faucets give water (NEW!)
 - Craft casino coins from brass in a forge (NEW!)
 - Craft working ovens (NEW!)

@@ -28,11 +28,12 @@ Changes in this mod:
 - Modified Taza's stone axe for grinding resources
 - Added recipe for modified Taza's stone axe
 - Added start quest "Craft Taza's stone axe"
-- Added flamethrower and ammo
-- Added quest 'Flamethrower'
-- Added quest 'Burning zombie dogs'
 - Pick up crafting stations with a wrench
 - Pick up spotlights with a wrench
+- Added flamethrower and ammo
+- Added flamethrower schematics
+- Added quest 'Flamethrower'
+- Added challenge quest 'Burning zombie dogs'
 - Toilets and faucets give water (NEW!)
 - Craft casino coins from brass in a forge (NEW!)
 - Craft working ovens (NEW!)
@@ -70,7 +71,7 @@ Changes in this mod:
 - Added flamethrower and ammo (NEW!)
 - Added flamethrower schematics (NEW!)
 - Added quest 'Flamethrower' (NEW!)
-- Added quest 'Burning zombie dogs' (NEW!)
+- Added challenge quest 'Burning zombie dogs' (NEW!)
 			</Description>
 		</Server>
 		<Server Name="Tazas Grave 1.2" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png" > 
