@@ -1,5 +1,10 @@
 # Changelog
 
+v1.3 -> v1.4 (no WIPE required)
+- Toilets and faucets give water
+- Craft casino coins from brass in a forge
+- Craft working ovens
+
 v1.2 -> v1.3 (no WIPE required)
 - Added flamethrower weapon
 - Added flamethrower ammo

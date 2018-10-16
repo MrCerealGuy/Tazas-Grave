@@ -15916,4 +15916,79 @@ kind of free
 	<drop event="Destroy" name="brokenGlass" count="1,4"/>
 </block>
 
+<block id="2043" name="Oven">
+	<property name="Class" value="Campfire" />
+	<property name="Material" value="metal" />
+	<property name="MaxDamage" value="800" />
+	<property name="StabilitySupport" value="false" />
+	<property name="Shape" value="Ext3dModel" /> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models" />
+	<property name="Model" value="Appliances/oven" param1="main_mesh" />
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="ParticleName" value="campfire" />
+	<property name="ParticleOffset" value="0.7,0,0.7" />
+	<property name="Stacknumber" value="1" />
+	<property name="HeatMapStrength" value="2"/>
+	<property name="HeatMapTime" value="1200"/>
+	<property name="HeatMapFrequency" value="25"/>
+	<property name="BuffsWhenWalkedOn" value="blockBurn3Trigger"/>
+	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
+	<property class="Workstation">
+	<property name="CraftingAreaRecipes" value="campfire"/>
+	<property name="Modules" value="tools,output,fuel,input"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket" />
+	</property>
+	<property class="RepairItems"> 
+		<property name="mechanicalParts" value="1" /> 
+		<property name="scrapIron" value="5" />
+	</property>
+	<drop event="Harvest" name="mechanicalParts" count="2" prob=".1" tool_category="Disassemble" />
+	<drop event="Harvest" name="electricParts" count="4" prob="1" tool_category="Disassemble" />
+	<drop event="Harvest" name="electricParts" count="2" prob=".35" tool_category="Disassemble" />
+	<drop event="Harvest" name="electricParts" count="3" prob=".3" tool_category="Disassemble" />
+	<drop event="Harvest" name="electronicParts" count="2" prob=".5" tool_category="Disassemble" />
+	<drop event="Harvest" name="electronicParts" count="2" prob=".3" tool_category="Disassemble" />
+	<drop event="Harvest" name="shortMetalPipe" count="2" tool_category="Disassemble" />
+	<drop event="Harvest" name="scrapPlastics" count="2" prob=".8" tool_category="Disassemble" />
+	<drop event="Destroy" name="scrapIron" count="10" prob="1" />
+	<property name="Group" value="Food/Cooking,Basics,Building" />
+	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<property name="Group" value="Food/Cooking,Basics,Building" />
+	<property name="DescriptionKey" value="campfireDesc"/>
+	<property name="SellableToTrader" value="false" />
+	<property name="CustomIcon" value="cntOven" />
+</block>
+
+<block id="2044" name="Wall Oven">
+	<property name="Class" value="Campfire"/>
+	<property name="Material" value="metal"/>
+	<property name="Texture" value="346,345,341,345,262,345"/>
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="ParticleName" value="campfire" />
+	<property name="ParticleOffset" value="0.7,0,0.7" />
+	<property name="Stacknumber" value="1" />
+	<property name="HeatMapStrength" value="2"/>
+	<property name="HeatMapTime" value="1200"/>
+	<property name="HeatMapFrequency" value="25"/>
+	<property name="BuffsWhenWalkedOn" value="blockBurn3Trigger"/>
+	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
+	<property class="Workstation">
+	<property name="CraftingAreaRecipes" value="campfire"/>
+	<property name="Modules" value="tools,output,fuel,input"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket" />
+	</property>
+	<property class="RepairItems"> 
+		<property name="mechanicalParts" value="1" /> 
+		<property name="scrapIron" value="5" />
+	</property>
+	<drop event="Harvest" name="mechanicalParts" count="0,1" tool_category="Disassemble"/>
+	<drop event="Harvest" name="shortMetalPipe" count="1,2" tool_category="Disassemble"/>
+	<drop event="Destroy" name="scrapIron" count="5,10" prob="1"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Food/Cooking,Basics,Building" />
+	<property name="DescriptionKey" value="campfireDesc"/>
+	<property name="SellableToTrader" value="false" />
+	<property name="CustomIcon" value="cntWallOven" />
+</block>
+
 </blocks><!-- Block limit: No block can have an ID greater 2047. -->
