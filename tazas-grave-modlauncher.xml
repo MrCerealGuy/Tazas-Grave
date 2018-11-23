@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <Servers >
 	<ServerGroup Name="Tazas Grave" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png">
-		<Server Name="Tazas Grave 1.5 (A17.0)" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png" > 
+		<Server Name="Tazas Grave 1.5" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png" > 
 			<Address></Address>												<!-- IP address of the Server, this value gets updated in the Registry -->
 			<Port></Port>													<!-- Port number of Server, this value gets updated in the Registry for the Port -->
 			<Type></Type>													<!-- Whitelist, Public, Private, etc . Display only field, has no other effect -->
