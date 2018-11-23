@@ -112,7 +112,7 @@
 		
 		<window_group name="toolbelt" actionSet="false">
 			<window name="windowToolbelt" anchor="CenterBottom" />
-			<window name="HUDLeftStatBars" anchor="LeftBottom" />
+			<window name="S420HUDLeftStatBars" anchor="LeftBottom" />
 			<window name="HUDRightStatBars" anchor="RightBottom" />
 			<window name="windowQuestTracker" anchor="RightTop" />
 			<window name="windowGroupBars" anchor="LeftTop" />
