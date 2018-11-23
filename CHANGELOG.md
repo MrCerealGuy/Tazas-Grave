@@ -1,5 +1,15 @@
 # Changelog
 
+v1.4 -> v1.5 (A17.0-E b199 - WIPE required!)
+- Changed 1 to 3 skill points per level
+- Removed temporarily: Pick up crafting stations with a wrench
+- Removed temporarily: Pick up spotlights with a wrench
+- Removed temporarily: Flamethrower
+- Removed temporarily: Flamethrower ammo
+- Removed temporarily: Flamethrower schematics
+- Removed temporarily: Challenge quest 'Burning zombie dogs'
+- Removed temporarily: Working ovens
+
 v1.3 -> v1.4 (no WIPE required)
 - Toilets and faucets give water
 - Craft casino coins from brass in a forge

@@ -2,7 +2,7 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.4 (A16.4). No WIPE required!
+Version: v1.5 (A17.0-E). WIPE required! Not compatible with v1.4!
 Contact: mrcerealguy@gmx.de
 
 ## Description
@@ -10,20 +10,14 @@ Contact: mrcerealguy@gmx.de
 Hello white settler in wasteland! If you love it to build great bases and you think grinding resources is wasted time, then you should give this mod a try. Your most important tool will be a powerful Taza's stone axe!
 
 Changes in this mod:
+
 - Added Simple UI by stedman420
 - Basic survival quests removed (experts don't need this)
 - Modified Taza's stone axe for grinding resources
 - Added recipe for modified Taza's stone axe
 - Added start quest "Craft Taza's stone axe"
-- Pick up crafting stations with a wrench
-- Pick up spotlights with a wrench
-- Added flamethrower and ammo
-- Added flamethrower schematic
-- Added quest 'Flamethrower'
-- Added challenge quest 'Burning zombie dogs'
-- Toilets and faucets give water (NEW!)
-- Craft casino coins from brass in a forge (NEW!)
-- Craft working ovens (NEW!)
+- Craft casino coins from brass in a forge
+- Changed 1 to 3 skill points per level
 
 ## Install mod
 
@@ -37,12 +31,5 @@ Or download it manually and extract the zip file in your 7D2D folder.
 
 ```
 https://github.com/MrCerealGuy/Tazas-Grave/archive/master.zip
-```
-
-Optional:
-For better Zombie texture I recommend this patch from SphereII.
-
-```
-https://github.com/SphereII/7D2DPatches/raw/master/Alpha16.4/ZombieTextures/ZombieTextureOverhaul.zip
 ```
 
