@@ -1,0 +1,13 @@
+<configs>
+
+	<!-- change 1 to 3 skill points per level -->
+	<remove xpath="/progression/level" />
+
+	<append xpath="/progression">
+		<level max_level="300" exp_to_level="9545" experience_multiplier="1.0149" skill_points_per_level="3">
+		<!-- A15: 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP; XPRequired = exp_to_level * experience_multiplier ^ level -->
+		<!-- A16: 8300 XP for level 1, total cumulative of 11MXP -->
+		</level>
+	</append>
+
+</configs>

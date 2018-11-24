@@ -2,7 +2,7 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.5 (A17.0-E). WIPE required! Not compatible with v1.4!
+Version: v1.6 (A17.0-E). No WIPE required from v1.5! Not compatible with A16.4!
 Contact: mrcerealguy@gmx.de
 
 ## Description
@@ -18,6 +18,10 @@ Changes in this mod:
 - Added start quest "Craft Taza's stone axe"
 - Craft casino coins from brass in a forge
 - Changed 1 to 3 skill points per level
+- Added back basic damage bonuses based on quality level. (NEW!)
+  +20% entity damage per level above 1. 
+  (0-100%) +40% block damage per level above 1 (0-200%)
+- Added Taza's Grave main menu (NEW!)
 
 ## Install mod
 

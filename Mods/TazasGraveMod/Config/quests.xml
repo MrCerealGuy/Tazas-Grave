@@ -1,0 +1,40 @@
+<configs>
+
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival1']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival2']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival3']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival4']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival5']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival6']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival7']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival8']" />
+
+	<append xpath="/quests">
+		<!-- Basic Survival 1 - Craft Taza's Axe /> -->
+		<quest id="quest_BasicSurvival1">
+			<property name="group_name_key" value="quest_BasicSurvival" />
+			<property name="name_key" value="quest_BasicSurvival1" />
+			<property name="subtitle_key" value="quest_BasicSurvival1_subtitle" />
+			<property name="description_key" value="quest_BasicSurvival1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="offer_key" value="quest_BasicSurvival_offer" />
+			<property name="shareable" value="false" />
+			
+			<objective type="FetchKeep" id="resourceRockSmall" value="4" />
+			<objective type="FetchKeep" id="resourceYuccaFibers" value="2" />
+			<objective type="FetchKeep" id="resourceWood" value="2" />
+			
+			<objective type="Craft" id="meleeToolStoneAxe" value="1" />
+			<objective type="FetchKeep" id="resourceFeather" value="1" />
+			<objective type="Craft" id="meleeToolStoneAxeTazas" value="1" />
+
+			<reward type="Quest" id="quest_whiteRiverCitizen1" stage="aftercomplete">
+				<property name="chainquest" value="false" />
+			</reward>
+			<reward type="SkillPoints" value="5" chainreward="true" />
+		</quest>
+	</append>
+
+</configs>
