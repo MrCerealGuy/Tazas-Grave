@@ -2,7 +2,10 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.6 (A17.0-E). No WIPE required from v1.5! Not compatible with A16.4!
+Version: v1.6 (A17.0-E). Work in progress! Download and install only for evaluation purposes! Using with Mod Launcher not possible!
+
+No WIPE required from v1.5! Not compatible with A16.4!
+
 Contact: mrcerealguy@gmx.de
 
 ## Description
@@ -26,7 +29,7 @@ Changes in this mod:
 
 ## Install mod
 
-Please use the **7 Days To Die Mod Launcher** to install **Taza's Grave**. (Not working with v1.6)
+Please use the **7 Days To Die Mod Launcher** to install **Taza's Grave**.
 
 ```
 http://7d2dmodlauncher.org/
