@@ -1,0 +1,4 @@
+<configs>
+	<!-- Change timer on refreshing buff to 600s (10 min)-->
+	<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">600</set>
+</configs>

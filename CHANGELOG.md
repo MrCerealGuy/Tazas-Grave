@@ -5,6 +5,7 @@ v1.5 -> v1.6 (no WIPE required; using modlets, doesn't work with Mod launcher)
   +20% entity damage per level above 1. 
   (0-100%) +40% block damage per level above 1 (0-200%) 
 - Added Taza's Grave main menu
+- Changed "Near Death Trauma" buff to 600s (10 min)
 
 v1.4 -> v1.5 (A17.0-E b199 - WIPE required!)
 - Changed 1 to 3 skill points per level
