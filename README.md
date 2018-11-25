@@ -26,6 +26,7 @@ Changes in this mod:
   (0-100%) +40% block damage per level above 1 (0-200%)
 - Added Taza's Grave main menu (NEW!)
 - Changed "Near Death Trauma" buff to 600s (10 min)
+- Doubled birds nest feather and egg count
 
 ## Install mod
 

@@ -10,10 +10,11 @@
 			<property name="CustomIcon" value="meleeToolStoneAxe"/>
 			<property name="CustomIconTint" value="ffb0b0"/>
 			<property class="Action0">
-				<property name="ToolCategory.harvestingTools" value="1.8" param1="1"/>
-				<property name="ToolCategory.harvestingToolsBonus" value="1.6" param1="1"/>
 				<property name="ActionExp" value="4" />
 				<property name="ToolCategory.Butcher" value="0" param1="10"/>
+				
+				<!-- more harvest -->
+				<property name="ToolCategory.harvestingTools" value="1" param1="4"/>
 			</property>
 			<property class="Action1"> <!-- UseAction -->
 				<property name="Class" value="Repair"/>
@@ -23,19 +24,23 @@
 				<property name="Sound_start" value="repair_block"/>
 				<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceSteelPolish,resourceConcreteMix,resourceCobblestones,resourceYuccaFibers"/>
 			</property>
-			<!--<property class="Attributes">
-				<property name="EntityDamage" value="7,19" />
-				<property name="BlockDamage" value="99,200" />
-				<property name="DismembermentBaseChance" value="0.075,0.2"/>
-				<property name="DismembermentBonus" value="0,0"/>
-			</property>-->
 			<effect_group name="Base Effects">
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="1000"/>
 				<passive_effect name="EntityDamage" operation="base_set" value="12"/> <!-- meleeToolStoneAxeTazas -->
+				
+				<!-- quality damage bonus -->
+				<passive_effect name="EntityDamage" operation="perc_add" value="0,1" tier="1,6"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="0,2" tier="1,6"/>
+
 				<passive_effect name="BlockDamage" operation="base_set" value="1000"/>
 				<passive_effect name="AttacksPerMinute" operation="base_set" value="80"/> <!-- A16 .8 -->
+				
+				<!-- more harvest -->
 				<passive_effect name="HarvestCount" operation="base_set" value=".35" tags="butcherHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_set" value="1" tags="oreWoodHarvest"/>
+				<passive_effect name="HarvestCount" operation="perc_add" value="0,2" tier="1,6"/>
+				
 				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="stone"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="earth"/>
