@@ -19,6 +19,7 @@ Changes in this mod:
 - Modified Taza's stone axe for grinding resources
 - Added recipe for modified Taza's stone axe
 - Added start quest "Craft Taza's stone axe"
+- Toilets and faucets give water
 - Craft casino coins from brass in a forge
 - Changed 1 to 3 skill points per level
 - Added back basic damage bonuses based on quality level. (NEW!)  
