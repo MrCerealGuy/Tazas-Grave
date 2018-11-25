@@ -26,7 +26,6 @@
 			</property>
 			<effect_group name="Base Effects">
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
-				<passive_effect name="BlockRange" operation="base_set" value="1000"/>
 				<passive_effect name="EntityDamage" operation="base_set" value="12"/> <!-- meleeToolStoneAxeTazas -->
 				
 				<!-- quality damage bonus -->
@@ -34,8 +33,7 @@
 				<passive_effect name="BlockDamage" operation="perc_add" value="0,2" tier="1,6"/>
 
 				<passive_effect name="BlockDamage" operation="base_set" value="1000"/>
-				<passive_effect name="AttacksPerMinute" operation="base_set" value="80"/> <!-- A16 .8 -->
-				
+
 				<!-- more harvest -->
 				<passive_effect name="HarvestCount" operation="base_set" value=".35" tags="butcherHarvest"/>
 				<passive_effect name="HarvestCount" operation="base_set" value="1" tags="oreWoodHarvest"/>
