@@ -1,6 +1,6 @@
 # Changelog
 
-v1.5 -> v1.6 (no WIPE required; using modlets, doesn't work with Mod launcher)
+v1.5 -> v1.6 (A17.0-E b199-b208; no WIPE required; using modlets, doesn't work with Mod launcher)
 - Added back basic damage bonuses based on quality level.
   +20% entity damage per level above 1. 
   (0-100%) +40% block damage per level above 1 (0-200%) 
@@ -18,12 +18,12 @@ v1.4 -> v1.5 (A17.0-E b199 - WIPE required!)
 - Removed temporarily: Challenge quest 'Burning zombie dogs'
 - Removed temporarily: Working ovens
 
-v1.3 -> v1.4 (no WIPE required)
+v1.3 -> v1.4 (A16.4; no WIPE required)
 - Toilets and faucets give water
 - Craft casino coins from brass in a forge
 - Craft working ovens
 
-v1.2 -> v1.3 (no WIPE required)
+v1.2 -> v1.3 (A16.4; no WIPE required)
 - Added flamethrower weapon
 - Added flamethrower ammo
 - Added flamethrower schematics
@@ -31,15 +31,15 @@ v1.2 -> v1.3 (no WIPE required)
 - Added challenge quest 'Burning zombie dogs'
 - Added ModInfo.xml
 
-v1.1 -> v1.2 (no WIPE required)
+v1.1 -> v1.2 (A16.4; no WIPE required)
 - Added Simple UI by stedman420
 - Changed workbench attributes
 
-v1.0 -> v1.1 (no WIPE required)
+v1.0 -> v1.1 (A16.4; no WIPE required)
 - Pick up crafting stations with a wrench
 - Pick up spotlights with a wrench
 
-v1.0
+v1.0 (A16.4)
 - Basic survival quests removed
 - Modified Taza's stone axe for grinding resources
 - Added recipe for modified Taza's stone axe
