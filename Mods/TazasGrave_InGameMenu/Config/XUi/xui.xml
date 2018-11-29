@@ -1,5 +1,4 @@
 <configs>
-
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
 		<window name="TAZASGRAVE" anchor="RightTop" />
 	</append>
@@ -9,5 +8,4 @@
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='ingameMenu']">
 		<window name="TAZASGRAVEingameMenu" />
 	</append>
-
 </configs>
