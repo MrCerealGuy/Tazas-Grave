@@ -2,6 +2,6 @@
 	<!-- Left HUD -->
 	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']"/>
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
-		<window name="S420HUDLeftStatBars" anchor="LeftBottom" />
+		<window name="TAZASHUDLeftStatBars" anchor="LeftBottom" />
 	</append>
 </configs>

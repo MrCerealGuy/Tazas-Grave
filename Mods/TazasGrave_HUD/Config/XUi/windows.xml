@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/windows">
 		<!-- Left HUD - Temp, Stamina, Health, Food and Water -->
-		<window name="S420HUDLeftStatBars">
+		<window name="TAZASHUDLeftStatBars">
 			<rect name="hud" pos="9,147" rows="2" cols="1" width="168" side="right">
 				<rect width="171" height="43" pos="0,94" controller="HUDStatBar" stat_type="Stealth" visible="{statvisible}">
 					<sprite depth="1" name="border" color="0,0,0,150" height="43" type="sliced" />

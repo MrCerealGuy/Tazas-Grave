@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-    <ModInfo>
-        <Name value="Quality Damage Bonuses" />
-        <Description value="Back a quality bonus to damage.  +20% per level for entities and 40% for blocks." />
-        <Author value="Elucidus" />
-        <Version value="1.0.0" />
-    </ModInfo>
-</xml>
