@@ -49,7 +49,7 @@
 					<TAZAS_main_Menu_BTN4 pos="1300,-420" name="btnCredits" width="160" height="56" caption_key="xuiCredits" pivot="center" />
 
 				<label name="TAZASeditionInfo" depth="2" pos="60,-470" size="250,33" text="Taza's Grave" font_size="20" color="[white]" effect="outline" justify="center" pivot="center" />
-				<label name="TAZASversionInfo" depth="2" pos="60,-490" size="250,33" text="v1.6 (A17-E b199)" font_size="20" color="[white]" effect="outline" justify="center" pivot="center" />
+				<label name="TAZASversionInfo" depth="2" pos="60,-490" size="250,33" text="v1.6 (A17-E b208)" font_size="20" color="[white]" effect="outline" justify="center" pivot="center" />
 
 			</window>
 
