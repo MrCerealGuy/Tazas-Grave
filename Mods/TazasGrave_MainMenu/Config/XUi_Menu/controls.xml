@@ -6,7 +6,7 @@
 
 		<TAZAS_main_Menu_BTN1>
 			<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|85}" font_size_default="${height-16|16}" font_size_hover="${height-8|24}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}">
-				<texture name="TAZASmmButton1" depth="1" pos="10,-24" size="253,85" texture="@file:Mods/TazasGraveMod/Textures/MainMenu/tazasmmbtn1.png" material="Materials\Transparent Colored" pivot="${pivot|center}" />
+				<texture name="TAZASmmButton1" depth="1" pos="10,-24" size="253,85" texture="@file:Mods/TazasGrave_MainMenu/Textures/MainMenu/tazasmmbtn1.png" material="Materials\Transparent Colored" pivot="${pivot|center}" />
 				<button name="clickable" pos="0,${Round(-height/2,0)|-16}" sprite="" type="sliced" hoverscale="1.0" tooltip_key="${tooltip_key|}" pivot="${pivot|center}" />
 				<label name="btnLabel" depth="2" pos="10,${Round(-height/2,0)|-16}" width="${width-20|196}" text="${caption|}" text_key="${caption_key|}" font_size="${height-16|16}" effect="outline" justify="center" pivot="${pivot|center}"/>
 			</rect>
@@ -14,7 +14,7 @@
 
 		<TAZAS_main_Menu_BTN1L>
 			<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|85}" font_size_default="${height-16|16}" font_size_hover="${height-8|24}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}">
-				<texture name="TAZASmmButton1L" depth="1" pos="10,-24" size="373,85" texture="@file:Mods/TazasGraveMod/Textures/MainMenu/tazasmmbtn1.png" material="Materials\Transparent Colored" pivot="${pivot|center}" />
+				<texture name="TAZASmmButton1L" depth="1" pos="10,-24" size="373,85" texture="@file:Mods/TazasGrave_MainMenu/Textures/MainMenu/tazasmmbtn1.png" material="Materials\Transparent Colored" pivot="${pivot|center}" />
 				<button name="clickable" pos="0,${Round(-height/2,0)|-16}" sprite="" type="sliced" hoverscale="1.0" tooltip_key="${tooltip_key|}" pivot="${pivot|center}" />
 				<label name="btnLabel" depth="2" pos="10,${Round(-height/2,0)|-16}" width="${width-20|196}" text="${caption|}" text_key="${caption_key|}" font_size="${height-16|16}" effect="outline" justify="center" pivot="${pivot|center}" />
 			</rect>
@@ -22,7 +22,7 @@
 
 		<TAZAS_main_Menu_BTN2>
 			<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|85}" font_size_default="${height-16|16}" font_size_hover="${height-8|24}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}">
-				<texture name="TAZASmmButton2" depth="1" pos="10,-24" size="253,85" pivot="${pivot|center}" texture="@file:Mods/TazasGraveMod/Textures/MainMenu/tazasmmbtn2.png" material="Materials\Transparent Colored" />
+				<texture name="TAZASmmButton2" depth="1" pos="10,-24" size="253,85" pivot="${pivot|center}" texture="@file:Mods/TazasGrave_MainMenu/Textures/MainMenu/tazasmmbtn2.png" material="Materials\Transparent Colored" />
 				<button name="clickable" pos="0,${Round(-height/2,0)|-16}" sprite="" type="sliced" hoverscale="1.0" tooltip_key="${tooltip_key|}" pivot="${pivot|center}" />
 				<label name="btnLabel" depth="2" pos="10,${Round(-height/2,0)|-16}" width="${width-20|196}" text="${caption|}" text_key="${caption_key|}" font_size="${height-16|16}" effect="outline" justify="center" pivot="${pivot|center}" />
 			</rect>
@@ -30,7 +30,7 @@
 
 		<TAZAS_main_Menu_BTN2L>
 			<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|85}" font_size_default="${height-16|16}" font_size_hover="${height-8|24}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}">
-				<texture name="TAZASmmButton2L" depth="1" pos="10,-24" size="373,85" texture="@file:Mods/TazasGraveMod/Textures/MainMenu/tazasmmbtn2.png" material="Materials\Transparent Colored" pivot="${pivot|center}" />
+				<texture name="TAZASmmButton2L" depth="1" pos="10,-24" size="373,85" texture="@file:Mods/TazasGrave_MainMenu/Textures/MainMenu/tazasmmbtn2.png" material="Materials\Transparent Colored" pivot="${pivot|center}" />
 				<button name="clickable" pos="0,${Round(-height/2,0)|-16}" sprite="" type="sliced" hoverscale="1.0" tooltip_key="${tooltip_key|}" pivot="${pivot|center}" />
 				<label name="btnLabel" depth="2" pos="10,${Round(-height/2,0)|-16}" width="${width-20|196}" text="${caption|}" text_key="${caption_key|}" font_size="${height-16|16}" effect="outline" justify="center" pivot="${pivot|center}" />
 			</rect>
@@ -38,7 +38,7 @@
 
 		<TAZAS_main_Menu_BTN3>
 			<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|85}" font_size_default="${height-16|16}" font_size_hover="${height-8|24}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}">
-				<texture name="TAZASmmButton3" depth="1" pos="10,-24" size="183,85" texture="@file:Mods/TazasGraveMod/Textures/MainMenu/tazasmmbtn2.png" material="Materials\Transparent Colored" pivot="${pivot|center}" />
+				<texture name="TAZASmmButton3" depth="1" pos="10,-24" size="183,85" texture="@file:Mods/TazasGrave_MainMenu/Textures/MainMenu/tazasmmbtn2.png" material="Materials\Transparent Colored" pivot="${pivot|center}" />
 				<button name="clickable" pos="0,${Round(-height/2,0)|-16}" sprite="" type="sliced" hoverscale="1.0" tooltip_key="${tooltip_key|}" pivot="${pivot|center}" />
 				<label name="btnLabel" depth="2" pos="10,${Round(-height/2,0)|-16}" width="${width-20|196}" text="${caption|}" text_key="${caption_key|}" font_size="${height-16|16}" effect="outline" justify="center" pivot="${pivot|center}" />
 			</rect>
@@ -46,7 +46,7 @@
 
 		<TAZAS_main_Menu_BTN4>
 			<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|32}" font_size_default="${height-16|16}" font_size_hover="${height-8|24}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}">
-				<texture name="TAZASmmButton4" depth="1" pos="0,-30" size="160,56" texture="@file:Mods/TazasGraveMod/Textures/mainmenu/tazastfplogo.png" material="Materials\Transparent Colored" pivot="${pivot|center}" />
+				<texture name="TAZASmmButton4" depth="1" pos="0,-30" size="160,56" texture="@file:Mods/TazasGrave_MainMenu/Textures/mainmenu/tazastfplogo.png" material="Materials\Transparent Colored" pivot="${pivot|center}" />
 				<button name="clickable" pos="0,${Round(-height/2,0)|-16}" sprite="" type="sliced" hoverscale="1.0" tooltip_key="${tooltip_key|}" flip="horizontally" defaultcolor="255,255,255,80" hovercolor="[white]" pivot="${pivot|left}" />
 				<label name="btnLabel" depth="2" pos="10,${Round(-height/2,0)|-16}" width="${width-20|196}" text="${caption|}" text_key="" effect="outline" font_size="${height-16|16}" justify="left" pivot="${pivot|left}" />
 			</rect>
