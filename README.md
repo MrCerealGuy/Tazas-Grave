@@ -29,6 +29,7 @@ Changes in this mod:
 - Changed "Near Death Trauma" buff to 600s (10 min) (NEW!)
 - Doubled birds nest feather and egg count (NEW!)
 - Increased drop chance for zombie loot to 25% (NEW!)
+- Added extra input slot to the forge (NEW!)
 
 ## Install mod
 
