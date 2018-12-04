@@ -10,6 +10,9 @@ v1.5 -> v1.6 (A17.0-E b199-b208; no WIPE required; using modlets, doesn't work w
 - Increased drop chance for zombie loot to 25%
 - Added extra input slot to the forge
 - Decreased required iron for iron bars to 25
+- "Can of Acid" now craftable from a Car Battery and Glass Jar
+- Decreased costs for Moldy Bread, only 1 Sham Sandwich needed
+- Oil now craftable from an Empty Glass Jar instead of an Empty Can
 
 v1.4 -> v1.5 (A17.0-E b199 - WIPE required!)
 - Changed 1 to 3 skill points per level

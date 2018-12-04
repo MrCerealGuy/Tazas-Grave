@@ -31,6 +31,9 @@ Changes in this mod:
 - Increased drop chance for zombie loot to 25% (NEW!)
 - Added extra input slot to the forge (NEW!)
 - Decreased required iron for iron bars to 25 (NEW!)
+- "Can of Acid" now craftable from a Car Battery and Glass Jar (NEW!)
+- Decreased costs for Moldy Bread, only 1 Sham Sandwich needed (NEW!)
+- Oil now craftable from an Empty Glass Jar instead of an Empty Can (NEW!)
 
 ## Install mod
 

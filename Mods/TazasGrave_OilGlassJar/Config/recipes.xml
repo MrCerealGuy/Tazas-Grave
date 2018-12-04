@@ -1,0 +1,4 @@
+<configs>
+	<!-- changed drinkCanEmpty to drinkJarEmpty -->
+	<set xpath="/recipes/recipe[@name='resourceOil']/ingredient[@name='drinkCanEmpty']/@name">drinkJarEmpty</set>
+</configs>

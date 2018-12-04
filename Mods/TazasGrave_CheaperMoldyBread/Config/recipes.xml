@@ -1,0 +1,4 @@
+<configs>
+	<!-- decrease costs for moldy bread -->
+	<set xpath="/recipes/recipe[@name='foodMoldyBread']/ingredient[@name='foodShamSandwich']/@count">1</set>
+</configs>
