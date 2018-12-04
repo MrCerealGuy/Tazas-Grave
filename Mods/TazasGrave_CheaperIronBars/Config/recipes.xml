@@ -1,0 +1,5 @@
+<configs>
+	<!-- decrease costs for iron bars -->
+	<set xpath="/recipes/recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">25</set>
+	<set xpath="/recipes/recipe[@name='ironBarsCentered']/ingredient[@name='unit_iron']/@count">25</set>
+</configs>

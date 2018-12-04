@@ -30,6 +30,7 @@ Changes in this mod:
 - Doubled birds nest feather and egg count (NEW!)
 - Increased drop chance for zombie loot to 25% (NEW!)
 - Added extra input slot to the forge (NEW!)
+- Decreased required iron for iron bars to 25 (NEW!)
 
 ## Install mod
 

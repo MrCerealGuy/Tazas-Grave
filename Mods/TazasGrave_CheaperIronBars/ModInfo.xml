@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="TazasGrave_FaucetsAndToiletsGiveWater" />
-		<Description value="Faucets and Toilets give Water Modlet" />
+		<Name value="TazasGrave_CheaperIronBars" />
+		<Description value="Decreased costs for Iron Bars Modlet" />
 		<Author value="MrCerealGuy" />
 		<Version value="1.0" />
 		<Website value="https://github.com/MrCerealGuy/Tazas-Grave" />

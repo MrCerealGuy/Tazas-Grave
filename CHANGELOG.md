@@ -9,6 +9,7 @@ v1.5 -> v1.6 (A17.0-E b199-b208; no WIPE required; using modlets, doesn't work w
 - Doubled birds nest feather and egg count
 - Increased drop chance for zombie loot to 25%
 - Added extra input slot to the forge
+- Decreased required iron for iron bars to 25
 
 v1.4 -> v1.5 (A17.0-E b199 - WIPE required!)
 - Changed 1 to 3 skill points per level
