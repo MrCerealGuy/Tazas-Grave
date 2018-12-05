@@ -1,5 +1,9 @@
 # Changelog
 
+v1.6 -> v1.6.1 (A17.0-E b208; no WIPE required; using modlets, doesn't work with 7D2D Mod Launcher 1.0.5.2)
+
+- Doubled Block Range of Taza's Stone Axe
+
 v1.5 -> v1.6 (A17.0-E b208; no WIPE required; using modlets, doesn't work with 7D2D Mod Launcher 1.0.5.2)
 - Added back basic damage bonuses based on quality level.
   +20% entity damage per level above 1. 

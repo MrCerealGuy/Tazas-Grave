@@ -26,6 +26,10 @@
 			</property>
 			<effect_group name="Base Effects">
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
+				
+				<!-- doubled block range v1.6.1 -->
+				<passive_effect name="BlockRange" operation="base_set" value="6"/>
+				
 				<passive_effect name="EntityDamage" operation="base_set" value="12"/> <!-- meleeToolStoneAxeTazas -->
 				
 				<!-- quality damage bonus -->

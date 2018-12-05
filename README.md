@@ -2,7 +2,7 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.6 (A17.0-E). Work in progress! Download and install only for evaluation purposes! Using with Mod Launcher not possible!
+Version: v1.6.1 (A17.0-E). Work in progress! Download and install only for evaluation purposes! Using with Mod Launcher not possible!
 
 No WIPE required from v1.5! Not compatible with A16.4!
 
@@ -34,6 +34,7 @@ Changes in this mod:
 - "Can of Acid" now craftable from a Car Battery and Glass Jar (NEW!)
 - Decreased costs for Moldy Bread, only 1 Sham Sandwich needed (NEW!)
 - Oil now craftable from an Empty Glass Jar instead of an Empty Can (NEW!)
+- Doubled Block Range of Taza's Stone Axe (NEW!)
 
 ## Install mod
 
