@@ -2,9 +2,9 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.6.1 (A17.0-E). Work in progress! Download and install only for evaluation purposes! Using with Mod Launcher not possible!
+Version: v1.6.2 (A17.0-E b221). WIPE required from v1.6.1 (A17.0-E b208)! Not compatible with A16.4! Using with Mod Launcher not possible!
 
-No WIPE required from v1.5! Not compatible with A16.4!
+WIPE required from v1.6.1!
 
 Contact: mrcerealguy@gmx.de
 

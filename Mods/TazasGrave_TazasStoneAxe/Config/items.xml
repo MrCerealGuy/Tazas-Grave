@@ -5,7 +5,7 @@
 	<append xpath="/items">
 		<item name="meleeToolStoneAxeTazas">
 			<property name="Extends" value="meleeToolStoneAxe"/>
-			<property name="Tags" value="knife,melee,light,tool,tazas,perkMotherLode,perkTheHuntsman"/>
+			<property name="Tags" value="knife,melee,light,tool,tazas,perkMotherLode,perkDeepCuts,perkTheHuntsman"/>
 			<property name="EconomicValue" value="800"/>
 			<property name="CustomIcon" value="meleeToolStoneAxe"/>
 			<property name="CustomIconTint" value="ffb0b0"/>
@@ -37,6 +37,7 @@
 				<passive_effect name="BlockDamage" operation="perc_add" value="0,2" tier="1,6"/>
 
 				<passive_effect name="BlockDamage" operation="base_set" value="1000"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="70"/> <!-- A16 .8 -->
 
 				<!-- more harvest -->
 				<passive_effect name="HarvestCount" operation="base_set" value=".35" tags="butcherHarvest"/>
@@ -47,7 +48,10 @@
 				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="stone"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="metal"/>
+				
+				<!-- reduced stamina loss -->
 				<passive_effect name="StaminaLoss" operation="base_set" value="8" tags="primary"/>
+				
 				<passive_effect name="DegradationMax" operation="base_set" value="7000,14000" tier="1,6"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 				<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
