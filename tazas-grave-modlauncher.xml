@@ -1,6 +1,28 @@
 <?xml version='1.0'?>
 <Servers >
 	<ServerGroup Name="Tazas Grave" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png">
+		<Server Name="Tazas Grave 1.6.2" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png" > 
+			<Address></Address>												<!-- IP address of the Server, this value gets updated in the Registry -->
+			<Port></Port>													<!-- Port number of Server, this value gets updated in the Registry for the Port -->
+			<Type></Type>													<!-- Whitelist, Public, Private, etc . Display only field, has no other effect -->
+			<Version></Version>  											<!-- Latest, or specify an beta version string. If other than Latest, will attempt an beta label on a steam download -->
+			<EAC></EAC>														<!-- Enable, Disable EAC. Determines if to run 7DaysToDie_EAC.exe or not -->
+			<Admin>MrCerealGuy</Admin>										<!-- Admin Name(s). Display purposes only.  -->				
+			<AdminContact>mrcerealguy@gmx.de</AdminContact>  				<!-- Contact point, could also be URL. Display purposes only -->			
+			<WebSite>https://github.com/MrCerealGuy/Tazas-Grave</WebSite>	<!-- Server's web page, if available. Used as a web link. -->
+			<ReleaseNotes>https://github.com/MrCerealGuy/Tazas-Grave/releases/tag/v1.6.2</ReleaseNotes>	<!-- Link to a webpage that will show server information, including mods. Used as a web link. -->
+			<Downloads>
+				<Download></Download>
+			</Downloads>
+			<Description>
+IMPORTANT! PLEASE READ!
+		
+Patch Notes, Download and Installation instructions:
+https://7daystodie.com/forums/showthread.php?99634-Taza-s-Grave
+
+Installation via Mod Launcher ist currently not possible!
+			</Description>
+		</Server>
 		<Server Name="Tazas Grave 1.5" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png" > 
 			<Address></Address>												<!-- IP address of the Server, this value gets updated in the Registry -->
 			<Port></Port>													<!-- Port number of Server, this value gets updated in the Registry for the Port -->
@@ -16,7 +38,7 @@
 			</Downloads>
 			<Description>
 Taza's Grave
-Version: v1.5 (A17.0-E). WIPE required! Not compatible with v1.4!
+Version: v1.5 (A17.0-E). WIPE required! Not compatible with v1.4 (A16.4)!
 				
 Hello white settler in wasteland! If you love it to build great bases and you think grinding resources is wasted time, then you should give this mod a try. Your most important tool will be a powerful Taza's stone axe!
 
@@ -29,7 +51,7 @@ Changes in this mod:
 - Added start quest "Craft Taza's stone axe"
 - Toilets and faucets give water
 - Craft casino coins from brass in a forge
-- Changed 1 to 3 skill points per level
+- Changed 1 to 3 skill points per level (NEW!)
 			</Description>
 		</Server>
 		<Server Name="Tazas Grave 1.4" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png" > 
