@@ -22,7 +22,7 @@
          <!-- Contact point, could also be URL. Display purposes only -->
          <WebSite>https://github.com/MrCerealGuy/Tazas-Grave</WebSite>
          <!-- Server's web page, if available. Used as a web link. -->
-         <DownloadMode></DownloadMode>
+         <DownloadMode />
          <ReleaseNotes>https://github.com/MrCerealGuy/Tazas-Grave/releases/tag/v1.6.3</ReleaseNotes>
          <!-- Link to a webpage that will show server information, including mods. Used as a web link. -->
          <Downloads>
