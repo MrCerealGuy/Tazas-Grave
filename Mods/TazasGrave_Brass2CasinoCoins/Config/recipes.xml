@@ -1,5 +1,5 @@
 <configs>
-	<append xpath="/items">
+	<append xpath="/recipes">
 		<recipe name="casinoCoin" count="25" craft_area="forge" craft_tool="toolAndDieSet" material_based="true">
 			<ingredient name="unit_brass" count="1" />
 		</recipe>
