@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="TazasGrave_3ForgeInputSlots" />
-		<Description value="Taza's Grave Extra Input Slot for the Forge Modlet" />
+		<Description value="Add extra input slot for the forge." />
 		<Author value="MrCerealGuy" />
 		<Version value="1.0" />
 		<Website value="https://github.com/MrCerealGuy/Tazas-Grave" />

@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="TazasGrave_LessDeathDebuff" />
-		<Description value="Less Death Trauma Debuff Timer Modlet" />
+		<Description value="Set 'Less Death Trauma' debuff duration value from 30m to 10m." />
 		<Author value="MrCerealGuy" />
 		<Version value="1.0" />
 		<Website value="https://github.com/MrCerealGuy/Tazas-Grave" />

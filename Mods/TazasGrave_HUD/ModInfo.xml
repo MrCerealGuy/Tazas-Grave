@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="TazasGrave_HUD" />
-		<Description value="Taza's Grave HUD Modlet based on S420_SimpleUI-LeftHUD by stedman420" />
+		<Description value="Taza's Grave HUD based on S420_SimpleUI-LeftHUD by stedman420." />
 		<Author value="MrCerealGuy" />
 		<Version value="1.0" />
 		<Website value="https://github.com/MrCerealGuy/Tazas-Grave" />

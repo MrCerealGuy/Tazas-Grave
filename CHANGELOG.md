@@ -1,5 +1,8 @@
 # Changelog
 
+v1.6.2 -> v1.6.3 (A17 b240 stable; no WIPE required)
+- Updated to A17.0-E b221
+
 v1.6.1 -> v1.6.2 (A17.0-E b221; WIPE required; using modlets, doesn't work with 7D2D Mod Launcher 1.0.5.2)
 - Updated to A17.0-E b221
 

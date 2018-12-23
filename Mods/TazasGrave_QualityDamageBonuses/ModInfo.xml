@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="TazasGrave_QualityDamagesBonuses" />
-		<Description value="Quality Damages Bonuses Modlet" />
+		<Description value="Adds quality damages bonuses like in A16." />
 		<Author value="MrCerealGuy" />
 		<Version value="1.0" />
 		<Website value="https://github.com/MrCerealGuy/Tazas-Grave" />

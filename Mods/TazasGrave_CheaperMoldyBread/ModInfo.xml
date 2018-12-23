@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="TazasGrave_CheaperMoldyBread" />
-		<Description value="Decreased costs for Moldy Bread Modlet" />
+		<Description value="Moldy breads needs only one Sham sandwich." />
 		<Author value="MrCerealGuy" />
 		<Version value="1.0" />
 		<Website value="https://github.com/MrCerealGuy/Tazas-Grave" />

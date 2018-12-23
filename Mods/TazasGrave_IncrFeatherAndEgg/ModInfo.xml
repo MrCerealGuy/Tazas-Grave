@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="TazasGrave_IncrFeatherAndEgg" />
-		<Description value="Increased Feather and Egg Loot Modlet" />
+		<Description value="Increases feather and egg loot." />
 		<Author value="MrCerealGuy" />
 		<Version value="1.0" />
 		<Website value="https://github.com/MrCerealGuy/Tazas-Grave" />

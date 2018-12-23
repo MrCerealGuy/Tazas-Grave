@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="TazasGrave_OilGlassJar" />
-		<Description value="Craft Oil from an Empty Glass Jar Modlet" />
+		<Description value="Craft oil from an empty glass jar instead of an empty can." />
 		<Author value="MrCerealGuy" />
 		<Version value="1.0" />
 		<Website value="https://github.com/MrCerealGuy/Tazas-Grave" />

@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="TazasGrave_FaucetsAndToiletsGiveWater" />
-		<Description value="Faucets and Toilets give Water Modlet" />
+		<Description value="Faucets and toilets now give water." />
 		<Author value="MrCerealGuy" />
 		<Version value="1.0" />
 		<Website value="https://github.com/MrCerealGuy/Tazas-Grave" />

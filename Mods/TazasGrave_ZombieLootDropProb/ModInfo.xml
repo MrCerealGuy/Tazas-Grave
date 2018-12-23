@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="TazasGrave_ZombieLootDropProb" />
-		<Description value="Increased Zombie Loot Drop Probability Modlet" />
+		<Description value="Increases zombie loot drop probability to 25%." />
 		<Author value="MrCerealGuy" />
 		<Version value="1.0" />
 		<Website value="https://github.com/MrCerealGuy/Tazas-Grave" />
