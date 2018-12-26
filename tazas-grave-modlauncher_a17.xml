@@ -76,7 +76,7 @@ Features:
          <ReleaseNotes>https://github.com/MrCerealGuy/Tazas-Grave/releases/tag/v1.6.2</ReleaseNotes>
          <!-- Link to a webpage that will show server information, including mods. Used as a web link. -->
          <Downloads>
-            <Download />
+            <Download>https://github.com/MrCerealGuy/Tazas-Grave/archive/v1.6.2.zip</Download>
          </Downloads>
          <Description>Taza's Grave
 Version: v1.6.2 (A17-E b221).
