@@ -1,0 +1,37 @@
+Modlet									File					XML object
+=========================================================================================
+
+TazasGrave_3ForgeInputSlots				XUi\windows.xml			windowForgeInput
+																windowForgeOutput
+										XUi\xui.xml				workstation_forge
+TazasGrave_AcidFromBattery				recipes.xml				resourceAcid
+TazasGrave_Brass2CasinoCoins			recipes.xml				casinoCoin
+TazasGrave_CheaperIronBars				recipes.xml				ironBars
+																ironBarsCentered
+TazasGrave_CheaperMoldyBread			recipes.xml				foodMoldyBread
+TazasGrave_FaucetsAndToiletsGiveWater	items.xml				drinkJarEmpty
+TazasGrave_HUD							XUi\windows.xml			TAZASHUDLeftStatBars
+										XUi\xui.xml				HUDLeftStatBars
+TazasGrave_IncrFeatherAndEgg			loot.xml				resourceFeather
+																foodEgg
+TazasGrave_IncrSkillpointsPerLevel		progression.xml			progression
+TazasGrave_InGameMenu					XUi\windows.xml			TAZASGRAVEingameMenu
+																TAZASGRAVE
+										XUi\xui.xml				compass
+																ingameMenu
+TazasGrave_LessDeathDebuff				buffs.xml				buffNearDeathTrauma
+TazasGrave_MainMenu						XUi_Menu\controls.xml	controls
+										XUi_Menu\windows.xml	menuBackground
+																mainMenuLogo
+																TAZASmainMenu
+																TAZASoptionsMenu
+																TAZASeditingTools
+										XUi_Menu\xui.xml		TAZASmainMenu
+																TAZASoptionsMenu
+																TAZASeditingTools
+TazasGrave_OilGlassJar					recipes.xml				resourceOil
+TazasGrave_QualityDamageBonuses			items.xml				Base Effects
+TazasGrave_Quests						quests.xml				quests
+TazasGrave_TazasStoneAxe				items.xml				meleeToolStoneAxeTazas
+										recipes.xml				meleeToolStoneAxeTazas
+TazasGrave_ZombieLootDropProb			entityclasses.xml		LootDropProb
