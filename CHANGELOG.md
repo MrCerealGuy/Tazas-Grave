@@ -1,13 +1,26 @@
 # Changelog
 
+## 2019-01-23
+
+v1.6.3 -> v1.6.4 (A17.1 b9 stable; no WIPE required)
+- Updated to A17.1 b9 stable
+
+## 2018-12-23
+
 v1.6.2 -> v1.6.3 (A17 b240 stable; no WIPE required)
 - Updated to A17 b240 stable
+
+## 2018-12-13
 
 v1.6.1 -> v1.6.2 (A17.0-E b221; WIPE required; using modlets, doesn't work with 7D2D Mod Launcher 1.0.5.2)
 - Updated to A17.0-E b221
 
+## 2018-12-05
+
 v1.6 -> v1.6.1 (A17.0-E b208; no WIPE required; using modlets, doesn't work with 7D2D Mod Launcher 1.0.5.2)
 - Doubled Block Range of Taza's Stone Axe
+
+## 2018-12-04
 
 v1.5 -> v1.6 (A17.0-E b208; no WIPE required; using modlets, doesn't work with 7D2D Mod Launcher 1.0.5.2)
 - Added back basic damage bonuses based on quality level.
@@ -23,6 +36,8 @@ v1.5 -> v1.6 (A17.0-E b208; no WIPE required; using modlets, doesn't work with 7
 - Decreased costs for Moldy Bread, only 1 Sham Sandwich needed
 - Oil now craftable from an Empty Glass Jar instead of an Empty Can
 
+## 2018-11-23
+
 v1.4 -> v1.5 (A17.0-E b199 - WIPE required!)
 - Changed 1 to 3 skill points per level
 - Removed temporarily: Pick up crafting stations with a wrench
@@ -33,10 +48,14 @@ v1.4 -> v1.5 (A17.0-E b199 - WIPE required!)
 - Removed temporarily: Challenge quest 'Burning zombie dogs'
 - Removed temporarily: Working ovens
 
+## 2018-10-16
+
 v1.3 -> v1.4 (A16.4; no WIPE required)
 - Toilets and faucets give water
 - Craft casino coins from brass in a forge
 - Craft working ovens
+
+## 2018-09-26
 
 v1.2 -> v1.3 (A16.4; no WIPE required)
 - Added flamethrower weapon
@@ -46,13 +65,19 @@ v1.2 -> v1.3 (A16.4; no WIPE required)
 - Added challenge quest 'Burning zombie dogs'
 - Added ModInfo.xml
 
+## 2018-05-25
+
 v1.1 -> v1.2 (A16.4; no WIPE required)
 - Added Simple UI by stedman420
 - Changed workbench attributes
 
+## 2018-05-23
+
 v1.0 -> v1.1 (A16.4; no WIPE required)
 - Pick up crafting stations with a wrench
 - Pick up spotlights with a wrench
+
+## 2018-05-16
 
 v1.0 (A16.4)
 - Basic survival quests removed
