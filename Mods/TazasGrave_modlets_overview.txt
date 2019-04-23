@@ -1,7 +1,7 @@
 Modlet									File					XML object					Change
 ==================================================================================================
 
-Items
+Items/Quests/Progression
 --------------------------------------------------------------------------------------------------
 
 TazasGrave_AcidFromBattery				recipes.xml				resourceAcid				+
@@ -23,6 +23,79 @@ TazasGrave_Quests						quests.xml				quest_BasicSurvival1		*
 TazasGrave_TazasStoneAxe				items.xml				meleeToolStoneAxeTazas		*
 										recipes.xml				meleeToolStoneAxeTazas		+
 TazasGrave_ZombieLootDropProb			entityclasses.xml		LootDropProb				*
+
+
+Blocks
+--------------------------------------------------------------------------------------------------
+
+Xyth_CCTV								blocks.xml				CCTV0-3						+
+																CCTV4-7						+
+																CCTVLarge0-3				+
+																CCTVLarge4-7				+
+																CamPan0						+
+																CamPan1						+
+																CamPan2						+
+																CamPan3						+
+																CamPan4						+
+																CamPan5						+
+																CamPan6						+
+																CamPan7						+
+																CamPanSm0					+
+																CamPanSm1					+
+																CamPanSm2					+
+																CamPanSm3					+
+																CamPanSm4					+
+																CamPanSm5					+
+																CamPanSm6					+
+																CamPanSm7					+
+										recipes.xml				CCTV0-3						+
+																CCTV4-7						+
+																CCTVLarge0-3				+
+																CCTVLarge4-7				+
+																CamPan0						+
+																CamPan1						+
+																CamPan2						+
+																CamPan3						+
+																CamPan4						+
+																CamPan5						+
+																CamPan6						+
+																CamPan7						+
+																CamPanSm0					+
+																CamPanSm1					+
+																CamPanSm2					+
+																CamPanSm3					+
+																CamPanSm4					+
+																CamPanSm5					+
+																CamPanSm6					+
+																CamPanSm7					+
+Xyth_Radios								blocks.xml				JukeBox						+
+																OldRadio					+
+																RA801						+
+										recipes.xml				JukeBox						+
+																OldRadio					+
+																RA801						+
+Xyth_ZombiePinups						blocks.xml				zombiePinup01				+
+																zombiePinup02				+
+																zombiePinup03				+
+																zombiePinup04				+
+										recipes.xml				zombiePinup01				+
+																zombiePinup02				+
+																zombiePinup03				+
+																zombiePinup04				+
+
+
+Biomes
+--------------------------------------------------------------------------------------------------
+
+Dust2Death_HDHQParticles				biomes.xml				pine_forest					*
+																wasteland					*
+																burnt_forest				*
+Dust2Death_HDHQPlants					biomes.xml				HDHQ_Goldenrod				*
+																HDHQ_Chrysanthemum			*
+																HDHQ_Cotton					*
+										blocks.xml				HDHQ_Goldenrod				+
+																HDHQ_Chrysanthemum			+
+																HDHQ_Cotton					+
 
 
 UI

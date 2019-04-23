@@ -2,7 +2,7 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.6.4 (A17.1 b9 stable). No WIPE required from v1.6.3 (A17 b240 stable)!
+Version: v1.6.5 (A17.2 b27 stable). WIPE required!
 
 Contact: mrcerealguy@gmx.de
 
@@ -12,6 +12,13 @@ Hello white settler in wasteland! If you love it to build great bases and you th
 
 Features:
 
+- Added CCTV by Xyth (NEW!)
+  How to use: https://youtu.be/k6mKlqbVuA8
+- Added Radios by Xyth (NEW!)
+- Added Zombie Pinups by Xyth (NEW!)
+- Added HDHQ2K by Dust2Death (NEW!)
+- Added HDHQParticles modlet by Dust2Death (NEW!)
+- Added HDHQPlants modlet by Dust2Death (NEW!)
 - Added Simple UI by stedman420
 - Basic survival quests removed (experts don't need this)
 - Modified Taza's stone axe for grinding resources
@@ -20,19 +27,19 @@ Features:
 - Toilets and faucets give water
 - Craft casino coins from brass in a forge
 - Changed 1 to 3 skill points per level
-- Added back basic damage bonuses based on quality level. (NEW!)  
+- Added back basic damage bonuses based on quality level.
   +20% entity damage per level above 1.  
   (0-100%) +40% block damage per level above 1 (0-200%)
-- Added Taza's Grave main menu (NEW!)
-- Changed "Near Death Trauma" buff to 600s (10 min) (NEW!)
-- Doubled birds nest feather and egg count (NEW!)
-- Increased drop chance for zombie loot to 25% (NEW!)
-- Added extra input slot to the forge (NEW!)
-- Decreased required iron for iron bars to 25 (NEW!)
-- "Can of Acid" now craftable from a Car Battery and Glass Jar (NEW!)
-- Decreased costs for Moldy Bread, only 1 Sham Sandwich needed (NEW!)
-- Oil now craftable from an Empty Glass Jar instead of an Empty Can (NEW!)
-- Doubled Block Range of Taza's Stone Axe (NEW!)
+- Added Taza's Grave main menu
+- Changed "Near Death Trauma" buff to 600s (10 min)
+- Doubled birds nest feather and egg count
+- Increased drop chance for zombie loot to 25%
+- Added extra input slot to the forge
+- Decreased required iron for iron bars to 25
+- "Can of Acid" now craftable from a Car Battery and Glass Jar
+- Decreased costs for Moldy Bread, only 1 Sham Sandwich needed
+- Oil now craftable from an Empty Glass Jar instead of an Empty Can
+- Doubled Block Range of Taza's Stone Axe
 
 ## Install mod
 

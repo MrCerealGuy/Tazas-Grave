@@ -1,5 +1,23 @@
 # Changelog
 
+## 2019-04-22
+v1.6.4 -> v1.6.5 (A17.2 b27 stable; WIPE required)
+- Updated to A17.2 b27 stable
+- Added CCTV modlet by Xyth
+- Added Radios modlet by Xyth
+- Added Zombie Pinups modlet by Xyth 
+- Added HDHQ2K by Dust2Death
+- Added HDHQParticles modlet by Dust2Death
+- Added HDHQPlants modlet by Dust2Death
+  
+Xyth:
+https://github.com/7D2D/A17Mods
+https://7daystodie.com/forums/showthread.php?95707-Xyth-s-A17-Modlet-Collection
+
+Dust2Death:
+https://gitlab.com/DUST2DEATH/hdhq2kexp
+https://7daystodie.com/forums/showthread.php?86145-HDHQ-Textures-Lighting-Environment
+
 ## 2019-01-23
 
 v1.6.3 -> v1.6.4 (A17.1 b9 stable; no WIPE required)
