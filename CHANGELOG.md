@@ -1,5 +1,10 @@
 # Changelog
 
+## 2019-06-01
+v1.6.5 -> v1.6.6 (A17.4 b4 stable; No WIPE required)
+- Updated to A17.4 b4 stable
+- Removed HDHQ2K by Dust2Death because of crashes
+
 ## 2019-04-22
 v1.6.4 -> v1.6.5 (A17.2 b27 stable; WIPE required)
 - Updated to A17.2 b27 stable

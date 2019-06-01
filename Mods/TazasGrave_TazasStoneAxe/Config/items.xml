@@ -40,7 +40,7 @@
 				<passive_effect name="AttacksPerMinute" operation="base_set" value="70"/> <!-- A16 .8 -->
 
 				<!-- more harvest -->
-				<passive_effect name="HarvestCount" operation="base_set" value=".35" tags="butcherHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_set" value=".7" tags="butcherHarvest"/>
 				<passive_effect name="HarvestCount" operation="base_set" value="1" tags="oreWoodHarvest"/>
 				<passive_effect name="HarvestCount" operation="perc_add" value="0,2" tier="1,6"/>
 				

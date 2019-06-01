@@ -2,7 +2,7 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.6.5 (A17.2 b27 stable). WIPE required!
+Version: v1.6.6 (A17.4 b4 stable). No WIPE required!
 
 Contact: mrcerealguy@gmx.de
 
@@ -12,13 +12,12 @@ Hello white settler in wasteland! If you love it to build great bases and you th
 
 Features:
 
-- Added CCTV by Xyth (NEW!)
+- Added CCTV by Xyth
   How to use: https://youtu.be/k6mKlqbVuA8
-- Added Radios by Xyth (NEW!)
-- Added Zombie Pinups by Xyth (NEW!)
-- Added HDHQ2K by Dust2Death (NEW!)
-- Added HDHQParticles modlet by Dust2Death (NEW!)
-- Added HDHQPlants modlet by Dust2Death (NEW!)
+- Added Radios by Xyth
+- Added Zombie Pinups by Xyth
+- Added HDHQParticles modlet by Dust2Death
+- Added HDHQPlants modlet by Dust2Death
 - Added Simple UI by stedman420
 - Basic survival quests removed (experts don't need this)
 - Modified Taza's stone axe for grinding resources
