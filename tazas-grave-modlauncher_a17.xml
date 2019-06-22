@@ -1,6 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Servers>
    <ServerGroup Name="Tazas Grave" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png">
+   <Server Name="Tazas Grave 1.6.7 A17.4" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png">
+         <RSS />
+         <!-- RSS Feed for updates -->
+         <Banner />
+         <!-- Banner icon Size is 825 x 125-->
+         <Address />
+         <!-- IP address of the Server, this value gets updated in the Registry -->
+         <Port />
+         <!-- Port number of Server, this value gets updated in the Registry for the Port -->
+         <Type />
+         <!-- Whitelist, Public, Private, etc . Display only field, has no other effect -->
+         <Version>A17.4 b4 stable</Version>
+         <!-- Latest, or specify an beta version string. If other than Latest, will attempt an beta label on a steam download -->
+         <EAC />
+         <!-- Enable, Disable EAC. Determines if to run 7DaysToDie_EAC.exe or not -->
+         <Admin>MrCerealGuy</Admin>
+         <!-- Admin Name(s). Display purposes only.  -->
+         <AdminContact>mrcerealguy@gmx.de</AdminContact>
+         <!-- Contact point, could also be URL. Display purposes only -->
+         <WebSite>https://github.com/MrCerealGuy/Tazas-Grave</WebSite>
+         <!-- Server's web page, if available. Used as a web link. -->
+         <DownloadMode />
+         <ReleaseNotes>https://github.com/MrCerealGuy/Tazas-Grave/releases/tag/v1.6.7</ReleaseNotes>
+         <!-- Link to a webpage that will show server information, including mods. Used as a web link. -->
+         <Downloads>
+            <Download>https://github.com/MrCerealGuy/Tazas-Grave/archive/v1.6.7.zip</Download>
+         </Downloads>
+         <Description>Taza's Grave
+Version: v1.6.7 (A17.4 b4 stable). No WIPE required!
+
+Please read CHANGELOG for more information:
+https://github.com/MrCerealGuy/Tazas-Grave/blob/master/CHANGELOG.md
+
+Taza's Grave at 7 Days to Die forum:
+https://7daystodie.com/forums/showthread.php?99634-Taza-s-Grave
+
+Hello white settler in wasteland! If you love it to build great bases and you think grinding resources is wasted time, then you should give this mod a try. Your most important tool will be a powerful Taza's Stone Axe!
+
+Features:
+
+- Added Lootable Pallets modlet by Starslayer71002 (NEW!)
+- Added Flamethrower modlet by Nanashi (NEW!)
+- Added Bigger Backpack (96 slots) modlet by KhaineGB (NEW!)
+- Added CCTV by Xyth
+  How to use: https://youtu.be/k6mKlqbVuA8
+- Added Radios by Xyth
+- Added Zombie Pinups by Xyth
+- Added HDHQParticles modlet by Dust2Death
+- Added HDHQPlants modlet by Dust2Death
+- Added Simple UI by stedman420
+- Basic survival quests removed (experts don't need this)
+- Modified Taza's stone axe for grinding resources
+- Added recipe for modified Taza's stone axe
+- Added start quest "Craft Taza's stone axe"
+- Toilets and faucets give water
+- Craft casino coins from brass in a forge
+- Changed 1 to 3 skill points per level
+- Added back basic damage bonuses based on quality level.
+  +20% entity damage per level above 1. 
+  (0-100%) +40% block damage per level above 1 (0-200%) 
+- Added Taza's Grave main menu
+- Changed "Near Death Trauma" buff to 600s (10 min)
+- Doubled birds nest feather and egg count
+- Increased drop chance for zombie loot to 25%
+- Added extra input slot to the forge
+- Decreased required iron for iron bars to 25
+- "Can of Acid" now craftable from a Car Battery and Glass Jar
+- Decreased costs for Moldy Bread, only 1 Sham Sandwich needed
+- Oil now craftable from an Empty Glass Jar instead of an Empty Can</Description>
+      </Server>
          <Server Name="Tazas Grave 1.6.6 A17.4" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png">
          <RSS />
          <!-- RSS Feed for updates -->

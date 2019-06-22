@@ -1,129 +1,68 @@
-Modlet									File					XML object					Change
-==================================================================================================
+Modlet									XML-File					
+================================================================
+
 
 Items/Quests/Progression
---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------
 
-TazasGrave_AcidFromBattery				recipes.xml				resourceAcid				+
-TazasGrave_Brass2CasinoCoins			recipes.xml				casinoCoin					+
-TazasGrave_CheaperIronBars				recipes.xml				ironBars					*
-																ironBarsCentered			*
-TazasGrave_CheaperMoldyBread			recipes.xml				foodMoldyBread				*
-TazasGrave_FaucetsAndToiletsGiveWater	items.xml				drinkJarEmpty				*
-TazasGrave_IncrFeatherAndEgg			loot.xml				resourceFeather				*
-																foodEgg						*
-TazasGrave_IncrSkillpointsPerLevel		progression.xml			progression					*
-
-TazasGrave_LessDeathDebuff				buffs.xml				buffNearDeathTrauma			*
-
-TazasGrave_OilGlassJar					recipes.xml				resourceOil					*
-TazasGrave_QualityDamageBonuses			items.xml				Base Effects				*
-TazasGrave_Quests						quests.xml				quest_BasicSurvival1		*
-																quest_BasicSurvival2-8		-
-TazasGrave_TazasStoneAxe				items.xml				meleeToolStoneAxeTazas		*
-										recipes.xml				meleeToolStoneAxeTazas		+
-TazasGrave_ZombieLootDropProb			entityclasses.xml		LootDropProb				*
+TazasGrave_AcidFromBattery				recipes.xml				
+TazasGrave_Brass2CasinoCoins			recipes.xml				
+TazasGrave_CheaperIronBars				recipes.xml				
+TazasGrave_CheaperMoldyBread			recipes.xml				
+TazasGrave_FaucetsAndToiletsGiveWater	items.xml				
+TazasGrave_IncrFeatherAndEgg			loot.xml				
+TazasGrave_IncrSkillpointsPerLevel		progression.xml			
+TazasGrave_LessDeathDebuff				buffs.xml				
+TazasGrave_OilGlassJar					recipes.xml				
+TazasGrave_QualityDamageBonuses			items.xml				
+TazasGrave_Quests						quests.xml				
+TazasGrave_TazasStoneAxe				items.xml				
+										recipes.xml				
+TazasGrave_ZombieLootDropProb			entityclasses.xml		
+Nanashi_Flamethrower					blocks.xml				
+										item_modifiers.xml		
+										items.xml				
+										materials.xml			
+										recipes.xml				
 
 
 Blocks
---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------
 
-Xyth_CCTV								blocks.xml				CCTV0-3						+
-																CCTV4-7						+
-																CCTVLarge0-3				+
-																CCTVLarge4-7				+
-																CamPan0						+
-																CamPan1						+
-																CamPan2						+
-																CamPan3						+
-																CamPan4						+
-																CamPan5						+
-																CamPan6						+
-																CamPan7						+
-																CamPanSm0					+
-																CamPanSm1					+
-																CamPanSm2					+
-																CamPanSm3					+
-																CamPanSm4					+
-																CamPanSm5					+
-																CamPanSm6					+
-																CamPanSm7					+
-										recipes.xml				CCTV0-3						+
-																CCTV4-7						+
-																CCTVLarge0-3				+
-																CCTVLarge4-7				+
-																CamPan0						+
-																CamPan1						+
-																CamPan2						+
-																CamPan3						+
-																CamPan4						+
-																CamPan5						+
-																CamPan6						+
-																CamPan7						+
-																CamPanSm0					+
-																CamPanSm1					+
-																CamPanSm2					+
-																CamPanSm3					+
-																CamPanSm4					+
-																CamPanSm5					+
-																CamPanSm6					+
-																CamPanSm7					+
-Xyth_Radios								blocks.xml				JukeBox						+
-																OldRadio					+
-																RA801						+
-										recipes.xml				JukeBox						+
-																OldRadio					+
-																RA801						+
-Xyth_ZombiePinups						blocks.xml				zombiePinup01				+
-																zombiePinup02				+
-																zombiePinup03				+
-																zombiePinup04				+
-										recipes.xml				zombiePinup01				+
-																zombiePinup02				+
-																zombiePinup03				+
-																zombiePinup04				+
+Xyth_CCTV								blocks.xml				
+										recipes.xml				
+Xyth_Radios								blocks.xml				
+										recipes.xml				
+Xyth_ZombiePinups						blocks.xml				
+										recipes.xml				
+Starslayer71002_STLootablePallets		blockplaceholders.xml	
+										blocks.xml				
+										loot.xml				
 
 
 Biomes
---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------
 
-Dust2Death_HDHQParticles				biomes.xml				pine_forest					*
-																wasteland					*
-																burnt_forest				*
-Dust2Death_HDHQPlants					biomes.xml				HDHQ_Goldenrod				*
-																HDHQ_Chrysanthemum			*
-																HDHQ_Cotton					*
-										blocks.xml				HDHQ_Goldenrod				+
-																HDHQ_Chrysanthemum			+
-																HDHQ_Cotton					+
+Dust2Death_HDHQParticles				biomes.xml				
+Dust2Death_HDHQPlants					biomes.xml				
+										blocks.xml				
 
 
 UI
---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------
 
-TazasGrave_3ForgeInputSlots				XUi\windows.xml			windowForgeInput
-																windowForgeOutput
-										XUi\xui.xml				workstation_forge
-TazasGrave_HUD							XUi\windows.xml			TAZASHUDLeftStatBars
-										XUi\xui.xml				HUDLeftStatBars
-TazasGrave_InGameMenu					XUi\windows.xml			TAZASGRAVEingameMenu
-																TAZASGRAVE
-										XUi\xui.xml				compass
-																ingameMenu
-TazasGrave_MainMenu						XUi_Menu\controls.xml	controls
-										XUi_Menu\windows.xml	menuBackground
-																mainMenuLogo
-																TAZASmainMenu
-																TAZASoptionsMenu
-																TAZASeditingTools
-										XUi_Menu\xui.xml		TAZASmainMenu
-																TAZASoptionsMenu
-																TAZASeditingTools
-
-
-
-Legend:
-
-+ added
-- removed
-* changed
+TazasGrave_3ForgeInputSlots				XUi\windows.xml			
+										XUi\xui.xml				
+TazasGrave_HUD							XUi\windows.xml			
+										XUi\xui.xml				
+TazasGrave_InGameMenu					XUi\windows.xml			
+										XUi\xui.xml				
+TazasGrave_MainMenu						XUi_Menu\controls.xml	
+										XUi_Menu\windows.xml	
+										XUi_Menu\xui.xml		
+KHA17-96BBM								XUi\controls.xml		
+										XUi\styles.xml			
+										XUi\windows.xml			
+										entityclasses.xml		
+										loot.xml				
+										progression.xml			

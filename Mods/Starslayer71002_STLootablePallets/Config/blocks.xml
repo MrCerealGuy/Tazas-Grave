@@ -1,0 +1,104 @@
+<lootablePallets>
+	<append xpath="/blocks">
+		<block name="Pallet, White Bags, Base">
+			<property name="Extends" value="palletWhiteBagsBase"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="117"/>
+		</block>
+		<block name="Pallet, White Bags, Tile">
+			<property name="Extends" value="palletWhiteBagsTile"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="117"/>
+		</block>
+		<block name="Pallet, White Bags, Top">
+			<property name="Extends" value="palletWhiteBagsTop"/>
+			<property name="Class" value="Loot"/>		
+			<property name="LootList" value="117"/>
+		</block>
+		<block name="Pallet, White Bags, Partial 1">
+			<property name="Extends" value="palletWhiteBagsPartial1"/>
+			<property name="Class" value="Loot"/>		
+			<property name="LootList" value="117"/>
+		</block>
+		<block name="Pallet, White Bags, Partial 2">
+			<property name="Extends" value="palletWhiteBagsPartial2"/>
+			<property name="Class" value="Loot"/>		
+			<property name="LootList" value="117"/>
+		</block>
+		<block name="Pallet, White Bags, Loose">
+			<property name="Extends" value="palletWhiteBagsLoose"/>
+			<property name="Class" value="Loot"/>		
+			<property name="LootList" value="117"/>
+		</block>
+		<block name="Pallet, Brown Boxes, Base">
+			<property name="Extends" value="palletBrownBoxesBase"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="118"/>
+		</block>
+		<block name="Pallet, Brown Boxes, Tile">
+			<property name="Extends" value="palletBrownBoxesTile"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="118"/>
+		</block>
+		<block name="Pallet, Brown Boxes, Top">
+			<property name="Extends" value="palletBrownBoxesTop"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="118"/>
+		</block>
+		<block name="Pallet, Brown Boxes, Loose">
+			<property name="Extends" value="palletBrownBoxesLoose"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="118"/>
+		</block>
+		<block name="Pallet, Bricks, Base">
+			<property name="Extends" value="palletBricksBase"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="119"/>
+		</block>
+		<block name="Pallet, Bricks, Tile">
+			<property name="Extends" value="palletBricksTile"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="119"/>
+		</block>
+		<block name="Pallet, Bricks, Top">
+			<property name="Extends" value="palletBricksTop"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="119"/>
+		</block>
+		<block name="Pallet, Bricks, Partial 1">
+			<property name="Extends" value="palletBricksPartial1"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="119"/>
+		</block>
+		<block name="Pallet, Bricks, Partial 2">
+			<property name="Extends" value="palletBricksPartial2"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="119"/>
+		</block>
+		<block name="Pallet, Bricks, Loose">
+			<property name="Extends" value="palletBricksLoose"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="119"/>
+		</block>
+		<block name="Pallet, Blue Tarp, Base">
+			<property name="Extends" value="palletBlueTarpBase"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="120"/>
+		</block>
+		<block name="Pallet, Blue Tarp, Tile">
+			<property name="Extends" value="palletBlueTarpTile"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="120"/>
+		</block>
+		<block name="Empty Pallet">
+			<property name="Extends" value="palletEmpty"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="121"/>
+		</block>
+		<block name="Empty Pallets, Full Stack">
+			<property name="Extends" value="palletEmptyStack"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="121"/>
+		</block>
+	</append>
+</lootablePallets>

@@ -2,7 +2,7 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.6.6 (A17.4 b4 stable). No WIPE required!
+Version: v1.6.7 (A17.4 b4 stable). No WIPE required!
 
 Contact: mrcerealguy@gmx.de
 
@@ -12,6 +12,9 @@ Hello white settler in wasteland! If you love it to build great bases and you th
 
 Features:
 
+- Added Lootable Pallets modlet by Starslayer71002 (NEW!)
+- Added Flamethrower modlet by Nanashi (NEW!)
+- Added Bigger Backpack (96 slots) modlet by KhaineGB (NEW!)
 - Added CCTV by Xyth
   How to use: https://youtu.be/k6mKlqbVuA8
 - Added Radios by Xyth

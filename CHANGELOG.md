@@ -1,5 +1,11 @@
 # Changelog
 
+## 2019-06-22
+v1.6.6 -> v1.6.7 (A17.4 b4 stable; No WIPE required)
+- Added Lootable Pallets modlet by Starslayer71002
+- Added Flamethrower modlet by Nanashi
+- Added Bigger Backpack (96 slots) modlet by KhaineGB
+
 ## 2019-06-01
 v1.6.5 -> v1.6.6 (A17.4 b4 stable; No WIPE required)
 - Updated to A17.4 b4 stable

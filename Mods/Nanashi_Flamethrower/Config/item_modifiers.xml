@@ -1,0 +1,9 @@
+<configs>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<item_property_overrides name="gunFlamethrower">
+			<property name="ScopeOffset" value="0.00,0.056,0.05"/>
+			<property name="ScopeScale" value="0.7,0.7,0.7"/>
+			<property name="ScopeCameraOffset" value="0,-0.0297,0"/>
+		</item_property_overrides>
+	</append>
+</configs>
