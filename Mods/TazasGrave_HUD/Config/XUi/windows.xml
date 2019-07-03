@@ -1,6 +1,18 @@
 <configs>
+
+	<!-- from S420_SimpleUI-CraftingQueue -->
+
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/@pos">19,12</set> <!-- 19,12 when 2 rows -->
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/@width">378</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@cols">5</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@rows">2</set> <!-- 2 rows possible! -->
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@cell_width">71</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@cell_height">71</set>
+
 	<append xpath="/windows">
+	
 		<!-- Left HUD - Temp, Stamina, Health, Food and Water -->
+		
 		<window name="TAZASHUDLeftStatBars">
 			<rect name="hud" pos="9,147" rows="2" cols="1" width="168" side="right">
 				<rect width="171" height="43" pos="0,94" controller="HUDStatBar" stat_type="Stealth" visible="{statvisible}">
@@ -40,8 +52,6 @@
 					<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
 				</rect>
 
-
-
 				<rect width="171" height="43" pos="0,-47" controller="HUDStatBar" stat_type="Health" visible="{statvisible}">
 					<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
 
@@ -56,8 +66,6 @@
 					<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
 					<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
 				</rect>
-
-
 			</rect>
 
 			<grid name="hud" pos="9,52" rows="1" cols="2" width="171" cell_width="85" cell_height="46" repeat_content="false" side="left" >
@@ -86,5 +94,6 @@
 				</panel>
 			</rect>
 		</window>
+
 	</append>
 </configs>

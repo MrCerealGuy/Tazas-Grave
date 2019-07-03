@@ -2,7 +2,7 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.6.7 (A17.4 b4 stable). No WIPE required!
+Version: v1.6.8 (A17.4 b4 stable). No WIPE required!
 
 Contact: mrcerealguy@gmx.de
 
@@ -12,9 +12,12 @@ Hello white settler in wasteland! If you love it to build great bases and you th
 
 Features:
 
-- Added Lootable Pallets modlet by Starslayer71002 (NEW!)
-- Added Flamethrower modlet by Nanashi (NEW!)
-- Added Bigger Backpack (96 slots) modlet by KhaineGB (NEW!)
+- Increased Crafting Queue from 4 to 10 slots (NEW!)
+- Added HD Wrench modlet by War3zuk (NEW!)
+- Increased the Spawning all over the Place (NEW!)
+- Added Lootable Pallets modlet by Starslayer71002
+- Added Flamethrower modlet by Nanashi
+- Added Bigger Backpack (96 slots) modlet by KhaineGB
 - Added CCTV by Xyth
   How to use: https://youtu.be/k6mKlqbVuA8
 - Added Radios by Xyth

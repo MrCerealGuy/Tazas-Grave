@@ -24,6 +24,10 @@ Nanashi_Flamethrower					blocks.xml
 										items.xml				
 										materials.xml			
 										recipes.xml				
+TazasGrave_SpawningIncrease				gamestages.xml			
+										spawning.xml			
+War3zuk_HDWrench						items.xml				
+										recipes.xml				
 
 
 Blocks
