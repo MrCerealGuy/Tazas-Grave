@@ -56,7 +56,7 @@ Features:
 			<!-- Clone, which will use Github and Gitlab hooks to download. Leave blank for a direct download of a zip file. -->
 			<SubscriptionLink />
 			<!-- This is the direct link to a subscription text -->
-			<Version>A17.4 b4 stable</Version>
+			<Version>alpha17.4</Version>
 			<!-- Latest, or specify an beta version string. If other than Latest, will attempt an beta label on a steam download -->
 			<ReleaseNotes>https://github.com/MrCerealGuy/Tazas-Grave/releases/tag/v1.6.8</ReleaseNotes>
 			<!-- Link to a webpage that will show server information, including mods. Used as a web link. -->
@@ -116,7 +116,7 @@ Features:
 			<!-- Clone, which will use Github and Gitlab hooks to download. Leave blank for a direct download of a zip file. -->
 			<SubscriptionLink />
 			<!-- This is the direct link to a subscription text -->
-			<Version>A17.4 b4 stable</Version>
+			<Version>alpha17.4</Version>
 			<!-- Latest, or specify an beta version string. If other than Latest, will attempt an beta label on a steam download -->
 			<ReleaseNotes>https://github.com/MrCerealGuy/Tazas-Grave/releases/tag/v1.6.7</ReleaseNotes>
 			<!-- Link to a webpage that will show server information, including mods. Used as a web link. -->
@@ -173,7 +173,7 @@ Features:
 			<!-- Clone, which will use Github and Gitlab hooks to download. Leave blank for a direct download of a zip file. -->
 			<SubscriptionLink />
 			<!-- This is the direct link to a subscription text -->
-			<Version>A17.4 b4 stable</Version>
+			<Version>alpha17.4</Version>
 			<!-- Latest, or specify an beta version string. If other than Latest, will attempt an beta label on a steam download -->
 			<ReleaseNotes>https://github.com/MrCerealGuy/Tazas-Grave/releases/tag/v1.6.6</ReleaseNotes>
 			<!-- Link to a webpage that will show server information, including mods. Used as a web link. -->
