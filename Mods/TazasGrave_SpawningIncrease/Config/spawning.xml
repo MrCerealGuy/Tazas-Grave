@@ -2,13 +2,13 @@
 	<!-- be prepared! WELL prepared! really WELL!! -->
 	<!-- for use with Mods that fasten up the beginning -->
 	
-	<set xpath="/spawning/biome/spawn[@maxcount='5' and not(@entitygroup='ZombieDogGroup') and not(@entitygroup='WanderingTraders') and not(contains(@entitygroup,'Animal'))]/@maxcount">25</set>
-	<set xpath="/spawning/biome/spawn[@maxcount='3' and not(@entitygroup='ZombieDogGroup') and not(@entitygroup='WanderingTraders') and not(contains(@entitygroup,'Animal'))]/@maxcount">16</set>
-	<set xpath="/spawning/biome/spawn[@maxcount='2' and not(@entitygroup='ZombieDogGroup') and not(@entitygroup='WanderingTraders') and not(contains(@entitygroup,'Animal'))]/@maxcount">12</set>
-	<set xpath="/spawning/biome/spawn[@maxcount='1' and not(@entitygroup='ZombieDogGroup') and not(@entitygroup='WanderingTraders') and not(contains(@entitygroup,'Animal'))]/@maxcount">7</set>
+	<set xpath="/spawning/biome/spawn[@maxcount='5' and not(@entitygroup='ZombieDogGroup') and not(@entitygroup='WanderingTraders') and not(contains(@entitygroup,'Animal'))]/@maxcount">15</set>
+	<set xpath="/spawning/biome/spawn[@maxcount='3' and not(@entitygroup='ZombieDogGroup') and not(@entitygroup='WanderingTraders') and not(contains(@entitygroup,'Animal'))]/@maxcount">9</set>
+	<set xpath="/spawning/biome/spawn[@maxcount='2' and not(@entitygroup='ZombieDogGroup') and not(@entitygroup='WanderingTraders') and not(contains(@entitygroup,'Animal'))]/@maxcount">6</set>
+	<set xpath="/spawning/biome/spawn[@maxcount='1' and not(@entitygroup='ZombieDogGroup') and not(@entitygroup='WanderingTraders') and not(contains(@entitygroup,'Animal'))]/@maxcount">3</set>
 
-	<set xpath="/spawning/biome/spawn[@respawndelay='7']/@respawndelay">2</set>
-	<set xpath="/spawning/biome/spawn[@respawndelay='4']/@respawndelay">1</set>
+	<!--<set xpath="/spawning/biome/spawn[@respawndelay='7']/@respawndelay">2</set>-->
+	<!--<set xpath="/spawning/biome/spawn[@respawndelay='4']/@respawndelay">1</set>-->
 
 	<set xpath="/spawning/entityspawner/day/property[@name='DaysToRespawnIfPlayerLeft' and @value='5']/@value">2</set>
 
@@ -24,7 +24,7 @@
 	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='4']/@value">14</set>
 	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='3']/@value">12</set>
 	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='2']/@value">8</set>
-	<set xpath="/spawning/entityspawner[not(@name='Scouts')]/day/property[@name='TotalAlive' and @value='1']/@value">5</set>	
+	<set xpath="/spawning/entityspawner[not(@name='Scouts')]/day/property[@name='TotalAlive' and @value='1']/@value">5</set>
 	<set xpath="/spawning/entityspawner[@name='Scouts']/day/property[@name='TotalAlive' and @value='1']/@value">3</set>	
 		
 	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='300']/@value">370</set>

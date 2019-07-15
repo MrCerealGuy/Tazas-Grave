@@ -18,6 +18,8 @@ TazasGrave_QualityDamageBonuses			items.xml
 TazasGrave_Quests						quests.xml				
 TazasGrave_TazasStoneAxe				items.xml				
 										recipes.xml				
+TazasGrave_HDNailgun					items.xml				
+										recipes.xml				
 TazasGrave_ZombieLootDropProb			entityclasses.xml		
 Nanashi_Flamethrower					blocks.xml				
 										item_modifiers.xml		

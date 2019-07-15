@@ -1,0 +1,11 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="HD Nailgun" count="1" craft_time = "300" >
+			<ingredient name="resourceForgedSteel" count="150"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+			<ingredient name="resourceDuctTape" count="30"/>
+			<ingredient name="resourceScrapPolymers" count="50"/>
+			<ingredient name="resourceSpring" count="10"/>
+		</recipe>
+	</append>
+</configs>

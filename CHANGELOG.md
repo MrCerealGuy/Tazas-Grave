@@ -1,8 +1,13 @@
 # Changelog
 
+## 2019-07-15
+v1.6.8 -> master
+- Added HD Nailgun
+- Nerfed Spawning all over the Place
+
 ## 2019-07-03
 v1.6.7 -> v1.6.8 (A17.4 b4 stable; No WIPE required)
-- Increased Crafting Queue from 4 to 10 slots (NEW!)
+- Increased Crafting Queue from 4 to 10 slots
 - Added HD Wrench modlet by War3zuk
 - Increased the Spawning all over the Place
 
