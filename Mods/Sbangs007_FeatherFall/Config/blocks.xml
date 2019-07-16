@@ -1,0 +1,69 @@
+<ModFeatherFall>
+
+<!-- DESERT TREES -->
+<append xpath="/blocks/block[@name='treeCactus01']">
+	<drop event="Destroy" name="resourceFeather" count="2,10" prob=".5"/>
+</append>
+<append xpath="/blocks/block[@name='treeCactus02']">
+	<drop event="Destroy" name="resourceFeather" count="1,7" prob=".4"/>
+</append>
+<append xpath="/blocks/block[@name='treeCactus03']">
+	<drop event="Destroy" name="resourceFeather" count="1,6" prob=".3"/>
+</append>
+<append xpath="/blocks/block[@name='treeCactus04']">
+	<drop event="Destroy" name="resourceFeather" count="1,5" prob=".2"/>
+</append>
+<append xpath="/blocks/block[@name='treeCactus05']">
+	<drop event="Destroy" name="resourceFeather" count="1,2" prob=".1"/>
+</append>
+<append xpath="/blocks/block[@name='treeCactus06']">
+	<drop event="Destroy" name="resourceFeather" count="1,2" prob=".1"/>
+</append>
+
+<!-- Forest Trees -->
+<append xpath="/blocks/block[@name='treeJuniper4m']"> <!-- seed drop 1 -->
+	<drop event="Destroy" name="resourceFeather" count="0" prob=".2"/>
+</append>
+<append xpath="/blocks/block[@name='treeOakSml01']"> <!-- seed drop 1 -->
+	<drop event="Destroy" name="resourceFeather" count="1,2" prob=".5"/>
+</append>
+<append xpath="/blocks/block[@name='treeOakMed01']"> <!-- seed drop 2 -->
+	<drop event="Destroy" name="resourceFeather" count="2,8" prob=".5"/>
+</append>
+<append xpath="/blocks/block[@name='treeOakMed02']"> <!-- seed drop 2 -->
+	<drop event="Destroy" name="resourceFeather" count="4,12" prob=".6"/>
+</append>
+<append xpath="/blocks/block[@name='treeOakLrg01']"> <!-- seed drop 2 -->
+	<drop event="Destroy" name="resourceFeather" count="4,20" prob=".7"/>
+</append>
+<append xpath="/blocks/block[@name='treePlantedOak41m']"> <!-- seed drop 1 also player planted tree grown-->
+	<drop event="Destroy" name="resourceFeather" count="1,7" prob=".3"/>
+</append>
+
+
+<append xpath="/blocks/block[@name='treeMountainPine27m']"> <!-- seed drop 2 -->
+	<drop event="Destroy" name="resourceFeather" count="2,8" prob=".7"/>
+</append>
+<append xpath="/blocks/block[@name='treeMountainPine31m']"> <!-- seed drop 2 -->
+	<drop event="Destroy" name="resourceFeather" count="3,12" prob=".7"/>
+</append>
+<append xpath="/blocks/block[@name='treeMountainPine41m']"> <!-- seed drop 2 -->
+	<drop event="Destroy" name="resourceFeather" count="4,18" prob=".7"/>
+</append>
+<append xpath="/blocks/block[@name='treeMountainPine48m']"> <!-- seed drop 2 -->
+	<drop event="Destroy" name="resourceFeather" count="6,24" prob=".8"/>
+</append>
+
+
+<append xpath="/blocks/block[@name='treePlantedMountainPine19m']"> <!-- seed drop 2 -->
+	<drop event="Destroy" name="resourceFeather" count="1,3" prob=".2"/>
+</append>
+<append xpath="/blocks/block[@name='treePlantedMountainPine27m']"> <!-- seed drop 2 -->
+	<drop event="Destroy" name="resourceFeather" count="3,6" prob=".3"/>
+</append>
+<append xpath="/blocks/block[@name='treePlantedMountainPine41m']"> <!-- seed drop 2 -->
+	<drop event="Destroy" name="resourceFeather" count="4,12" prob=".35"/>
+</append>
+	
+	
+</ModFeatherFall>

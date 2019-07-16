@@ -10,7 +10,7 @@ Contact: mrcerealguy@gmx.de
 
 Hello white settler in wasteland! If you love it to build great bases and you think grinding resources is wasted time, then you should give this mod a try. Your most important tool will be a powerful Taza's Stone Axe!
 
-Features:
+Features/Changelog:
 
 - Increased Crafting Queue from 4 to 10 slots (NEW!)
 - Added HD Wrench modlet by War3zuk (NEW!)

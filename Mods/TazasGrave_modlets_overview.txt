@@ -1,4 +1,4 @@
-Modlet									XML-File					
+Modlet									XML-File				
 ================================================================
 
 
@@ -37,13 +37,18 @@ Blocks
 
 Xyth_CCTV								blocks.xml				
 										recipes.xml				
-Xyth_Radios								blocks.xml				
-										recipes.xml				
 Xyth_ZombiePinups						blocks.xml				
 										recipes.xml				
 Starslayer71002_STLootablePallets		blockplaceholders.xml	
 										blocks.xml				
 										loot.xml				
+Drs_Pick_Up_Stuff						blocks.xml				
+										items.xml				
+										materials.xml			
+										recipes.xml				
+Sbangs007_FeatherFall					blocks.xml				
+Xyth_SteelBars							blocks.xml				
+										recipes.xml				
 
 
 Biomes

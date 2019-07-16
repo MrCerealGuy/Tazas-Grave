@@ -1,5 +1,13 @@
 # Changelog
 
+## 2019-07-16
+v1.6.8 -> master
+- Nerfed Spawning all over the Place
+- Added Pick Up Stuff modlet by Drconfused
+- Added Feather Fall modlet by sbangs007
+- Added Steel, Wrought iron and Wood bars by Xyth
+- Removed Radios modlet by Xyth (too buggy)
+
 ## 2019-07-15
 v1.6.8 -> master
 - Added HD Nailgun

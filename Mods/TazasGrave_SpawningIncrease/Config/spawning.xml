@@ -12,33 +12,33 @@
 
 	<set xpath="/spawning/entityspawner/day/property[@name='DaysToRespawnIfPlayerLeft' and @value='5']/@value">2</set>
 
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='25']/@value">35</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='15']/@value">26</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='12']/@value">25</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='10']/@value">24</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='9']/@value">23</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='8']/@value">22</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='7']/@value">21</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='6']/@value">20</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='5']/@value">18</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='4']/@value">14</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='3']/@value">12</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='2']/@value">8</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='25']/@value">30</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='15']/@value">20</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='12']/@value">17</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='10']/@value">15</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='9']/@value">14</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='8']/@value">13</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='7']/@value">12</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='6']/@value">11</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='5']/@value">10</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='4']/@value">9</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='3']/@value">8</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalAlive' and @value='2']/@value">7</set>
 	<set xpath="/spawning/entityspawner[not(@name='Scouts')]/day/property[@name='TotalAlive' and @value='1']/@value">5</set>
 	<set xpath="/spawning/entityspawner[@name='Scouts']/day/property[@name='TotalAlive' and @value='1']/@value">3</set>	
 		
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='300']/@value">370</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='250']/@value">340</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='200']/@value">300</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='175']/@value">280</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='150']/@value">260</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='100']/@value">220</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='60']/@value">90</set> <!-- not 150, as this is the night scout horde -->
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='50']/@value">120</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='25']/@value">65</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='20']/@value">50</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='300']/@value">320</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='250']/@value">270</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='200']/@value">220</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='175']/@value">195</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='150']/@value">170</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='100']/@value">120</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='60']/@value">80</set> <!-- not 150, as this is the night scout horde -->
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='50']/@value">70</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='25']/@value">45</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='20']/@value">20</set>
 	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='12']/@value">32</set>
-	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='10']/@value">30</set>
+	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='10']/@value">20</set>
 	<!--<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='8']/@value">26</set>-->
 	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='7']/@value">24</set>
 	<set xpath="/spawning/entityspawner/day/property[@name='TotalPerWave' and @value='6']/@value">22</set>
