@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/recipes">
-		<recipe name="meleeToolStoneAxeTazas" count="1">
-			<ingredient name="meleeToolStoneAxe" count="1"/>
+		<recipe name="meleeToolRepairT0TazasStoneAxe" count="1">
+			<ingredient name="meleeToolRepairT0StoneAxe" count="1"/>
 			<ingredient name="resourceFeather" count="1"/>
 		</recipe>
 	</append>

@@ -1,0 +1,12 @@
+<configs>
+<append xpath="/recipes">
+<recipe name="weaponFlamethrower" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkDemolitionsExpert">
+	<ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+	<ingredient name="resourceOil" count="10"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceForgedIron" count="5"/>
+</recipe>
+
+</append>
+</configs>

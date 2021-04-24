@@ -1,0 +1,26 @@
+<configs>
+<append xpath="/Sounds">
+<!-- flamethrower -->
+<SoundDataNode name="SoundEffectFlamethrowerStart">
+<AudioSource name="Sounds/AudioSource_WeaponFire"/>
+<NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+	<AudioClip ClipName="#@modfolder:Resources/TelricsFlamethrower.unity3d?SoundEffectFlamethrowerStart"/>
+	<Priority name="3"/>
+	<maxVoicesPerEntity value="20"/>
+  <LowestPitch name="0.95"/>
+  <HighestPitch name="1.05"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="20"/> <MaxRepeatRate value=".01"/> 
+</SoundDataNode>
+<SoundDataNode name="SoundEffectFlamethrowerLoop">
+<AudioSource name="Sounds/AudioSource_WeaponFire"/>
+<NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+	<AudioClip ClipName="#@modfolder:Resources/TelricsFlamethrower.unity3d?SoundEffectFlamethrowerLoop1"/>
+	<Priority name="3"/>
+	<maxVoicesPerEntity value="20"/>
+  <LowestPitch name="0.95"/>
+  <HighestPitch name="1.05"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="20"/> <MaxRepeatRate value=".01"/> 
+</SoundDataNode>
+</append>
+
+</configs>

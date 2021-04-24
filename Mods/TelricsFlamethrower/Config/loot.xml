@@ -1,0 +1,14 @@
+<configs>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Ranged']">
+	<item name="weaponFlamethrower" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT1']">
+	<item name="weaponFlamethrowerSchematic" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='modMeleeT1']">
+	<item name="modBlueCanister" />
+	<item name="modGreenCanister" />
+	<item name="modPinkCanister" />
+	<item name="modDarkCanister" />
+</append>
+</configs>

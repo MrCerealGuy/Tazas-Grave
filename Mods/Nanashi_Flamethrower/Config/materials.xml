@@ -1,7 +1,0 @@
-<configs>
-	<set xpath="/materials/material[@id='Mcorn']/property[@name='damage_category']/@value">plants</set>
-	<set xpath="/materials/material[@id='Mtallgrass']/property[@name='damage_category']/@value">plants</set>
-	<set xpath="/materials/material[@id='Mhay']/property[@name='damage_category']/@value">plants</set>
-	<set xpath="/materials/material[@id='Msnow']/property[@name='damage_category']/@value">snow</set>
-	<set xpath="/materials/material[@id='MresourceSnowBall']/property[@name='damage_category']/@value">snow</set>
-</configs>

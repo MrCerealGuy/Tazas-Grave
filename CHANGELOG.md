@@ -3,6 +3,9 @@
 ## 2021-04-24
 v1.6.8 -> v1.6.9 (A19.4 b7 stable; WIPE required)
 - Removed Quality Damage Bonuses modlet
+- Removed Spawning Increase modlet
+- Removed Nanashi Flamethrower modlet
+- Added Telrics Flamethrower modlet
 - Updated to A19.4 b7 stable
 
 ## 2019-07-16

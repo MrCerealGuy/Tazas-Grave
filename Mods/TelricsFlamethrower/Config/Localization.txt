@@ -1,0 +1,13 @@
+Key,english,japanese
+------------------Colors Orange [e7a729] Blue [2b87eb]----------------
+weaponFlamethrower,"[e7a729]Flamethrower[-]","[e7a729]火炎放射器[-]"
+weaponFlamethrowerDesc,"[e7a729]A combination of pipes and gas, this puppy can set fire to a large amount of walkers very quickly. This weapon also does 75% additional damage to wood structures.\n\nSkills in [-][2b87eb]Demolitions Experts[-][e7a729] will increase this weapon's power.[-]","[e7a729]簡単に作られた、この火炎放射器を使用すると、ゾンビの群れをあっという間に炎上させることが出来ます。\n木製ブロックへのダメージ量が他のブロックへのダメージ量より75%高くなっています。\n\n[-][2b87eb]解体専門家パーク[-][e7a729]を上げると威力が上がります。[-]"
+weaponFlamethrowerSchematic,"Schematic: Flamethrower","火炎放射器の図"
+modBlueCanister,"[e7a729]Blue Flamethrower Canister[-]","[e7a729]水色炎燃料缶[-]"
+modBlueCanisterDesc,"[e7a729]This canister can be equipped on a flamethrower to change the color of the flames.[-]","[e7a729]この燃料缶を火炎放射器に改造パーツとしてセットすると炎の色が変化します。\n\n入手方法：　ルート、もしくは購入[-]"
+modGreenCanister,"[e7a729]Green Flamethrower Canister[-]","[e7a729]緑色炎燃料缶[-]"
+modGreenCanisterDesc,"[e7a729]This canister can be equipped on a flamethrower to change the color of the flames.[-]","[e7a729]この燃料缶を火炎放射器に改造パーツとしてセットすると炎の色が変化します。\n\n入手方法：　ルート、もしくは購入[-]"
+modPinkCanister,"[e7a729]Pink Flamethrower Canister[-]","[e7a729]ピンク色炎燃料缶[-]"
+modPinkCanisterDesc,"[e7a729]This canister can be equipped on a flamethrower to change the color of the flames.[-]","[e7a729]この燃料缶を火炎放射器に改造パーツとしてセットすると炎の色が変化します。\n\n入手方法：　ルート、もしくは購入[-]"
+modDarkCanister,"[e7a729]Dark Flamethrower Canister[-]","[e7a729]青色炎燃料缶[-]"
+modDarkCanisterDesc,"[e7a729]This canister can be equipped on a flamethrower to change the color of the flames.[-]","[e7a729]この燃料缶を火炎放射器に改造パーツとしてセットすると炎の色が変化します。\n\n入手方法：　ルート、もしくは購入[-]"

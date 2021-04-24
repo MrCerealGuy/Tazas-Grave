@@ -1,0 +1,40 @@
+<configs>
+<append xpath="/buffs">
+<buff name="buffFlamethrowerFire"  hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<update_rate value=".17" />
+		<effect_group name="Play Sounds">
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="SoundEffectFlamethrowerStart"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="SoundEffectFlamethrowerLoop"/>
+		</effect_group>
+		<effect_group name="Attach Particles">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" target="self" buff="buffFlamethrowerFire"/>
+		
+			<triggered_effect trigger="onSelfBuffStart" action="AddPart" part="FlamethrowerFire" prefab="#@modfolder:Resources/TelricsFlamethrower.unity3d?ParticleFlamethrowerFirePrefab" localPos="0,0,0" localRot="0,0,0" parentTransform="Camera">
+				<requirement name="CVarCompare" cvar="FlamethrowerColor" operation="Equals" value="0"/>
+			</triggered_effect>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="AddPart" part="FlamethrowerFire" prefab="#@modfolder:Resources/TelricsFlamethrower.unity3d?ParticleFlamethrowerBlueFirePrefab" localPos="0,0,0" localRot="0,0,0" parentTransform="Camera">
+				<requirement name="CVarCompare" cvar="FlamethrowerColor" operation="Equals" value="1"/>
+			</triggered_effect>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="AddPart" part="FlamethrowerFire" prefab="#@modfolder:Resources/TelricsFlamethrower.unity3d?ParticleFlamethrowerGreenFirePrefab" localPos="0,0,0" localRot="0,0,0" parentTransform="Camera">
+				<requirement name="CVarCompare" cvar="FlamethrowerColor" operation="Equals" value="2"/>
+			</triggered_effect>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="AddPart" part="FlamethrowerFire" prefab="#@modfolder:Resources/TelricsFlamethrower.unity3d?ParticleFlamethrowerPinkFirePrefab" localPos="0,0,0" localRot="0,0,0" parentTransform="Camera">
+				<requirement name="CVarCompare" cvar="FlamethrowerColor" operation="Equals" value="3"/>
+			</triggered_effect>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="AddPart" part="FlamethrowerFire" prefab="#@modfolder:Resources/TelricsFlamethrower.unity3d?ParticleFlamethrowerDarkFirePrefab" localPos="0,0,0" localRot="0,0,0" parentTransform="Camera">
+				<requirement name="CVarCompare" cvar="FlamethrowerColor" operation="Equals" value="4"/>
+			</triggered_effect>
+			
+			
+			<triggered_effect trigger="onSelfBuffFinish" action="RemovePart" part="FlamethrowerFire"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="FlamethrowerFire"/>
+		</effect_group>
+	</buff>
+</append>
+</configs>

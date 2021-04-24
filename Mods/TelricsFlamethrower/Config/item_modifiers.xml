@@ -1,0 +1,55 @@
+<configs>
+<append xpath="/item_modifiers">
+	<item_modifier name="modBlueCanister" installable_tags="flamethrower" modifier_tags="flamethrower" blocked_tags="noMods" type="attachment">
+		<property name="EconomicValue" value="440"/>
+		<property name="CustomIcon" value="WeaponFlamethrowerBlueCanisterIcon" />
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<!--DamageFalloffRange increased by x meters-->
+
+		<effect_group tiered="false">		
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="FlamethrowerColor" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="FlamethrowerColor" operation="set" value="0"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modGreenCanister" installable_tags="flamethrower" modifier_tags="flamethrower" blocked_tags="noMods" type="attachment">
+		<property name="EconomicValue" value="440"/>
+		<property name="CustomIcon" value="WeaponFlamethrowerGreenCanisterIcon" />
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<!--DamageFalloffRange increased by x meters-->
+
+		<effect_group tiered="false">		
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="FlamethrowerColor" operation="set" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="FlamethrowerColor" operation="set" value="0"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modPinkCanister" installable_tags="flamethrower" modifier_tags="flamethrower" blocked_tags="noMods" type="attachment">
+		<property name="EconomicValue" value="440"/>
+		<property name="CustomIcon" value="WeaponFlamethrowerPinkCanisterIcon" />
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<!--DamageFalloffRange increased by x meters-->
+
+		<effect_group tiered="false">		
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="FlamethrowerColor" operation="set" value="3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="FlamethrowerColor" operation="set" value="0"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modDarkCanister" installable_tags="flamethrower" modifier_tags="flamethrower" blocked_tags="noMods" type="attachment">
+		<property name="EconomicValue" value="440"/>
+		<property name="CustomIcon" value="WeaponFlamethrowerDarkCanisterIcon" />
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<!--DamageFalloffRange increased by x meters-->
+
+		<effect_group tiered="false">		
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="FlamethrowerColor" operation="set" value="4"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="FlamethrowerColor" operation="set" value="0"/>
+		</effect_group>
+	</item_modifier>
+</append>
+</configs>

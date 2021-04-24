@@ -1,0 +1,11 @@
+<configs>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modMeleeT1']">
+	<item name="modBlueCanister" />
+	<item name="modGreenCanister" />
+	<item name="modPinkCanister" />
+	<item name="modDarkCanister" />
+</append>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT1']">
+	<item name="weaponFlamethrower" />
+</append>
+</configs>

@@ -13,20 +13,21 @@ TazasGrave_FaucetsAndToiletsGiveWater	items.xml
 TazasGrave_IncrFeatherAndEgg			loot.xml				
 TazasGrave_IncrSkillpointsPerLevel		progression.xml			
 TazasGrave_LessDeathDebuff				buffs.xml				
-TazasGrave_OilGlassJar					recipes.xml								
+TazasGrave_OilGlassJar					recipes.xml				
 TazasGrave_Quests						quests.xml				
 TazasGrave_TazasStoneAxe				items.xml				
 										recipes.xml				
 TazasGrave_HDNailgun					items.xml				
 										recipes.xml				
 TazasGrave_ZombieLootDropProb			entityclasses.xml		
-Nanashi_Flamethrower					blocks.xml				
+TelricsFlamethrower						buffs.xml				
 										item_modifiers.xml		
 										items.xml				
-										materials.xml			
+										loot.xml				
 										recipes.xml				
-TazasGrave_SpawningIncrease				gamestages.xml			
-										spawning.xml			
+										sounds.xml				
+										traders.xml				
+										ui_display.xml			
 War3zuk_HDWrench						items.xml				
 										recipes.xml				
 

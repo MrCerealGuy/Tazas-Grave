@@ -1,4 +1,0 @@
-<configs>
-	<set xpath="/blocks/block[@name='flamethrowerTrap']/property[@name='CreativeMode']/@value">Player</set>
-	<set xpath="/blocks/block[@name='flamethrowerTrap']/property[@name='AmmoItem']/@value">ammoFlamethrower</set>
-</configs>

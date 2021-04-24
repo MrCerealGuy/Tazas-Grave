@@ -1,0 +1,116 @@
+<configs>
+<append xpath="/items">
+<item name="weaponFlamethrowerSchematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="WeaponFlamethrowerIcon"/>
+	<property name="Unlocks" value="weaponFlamethrower"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="weaponFlamethrower" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+<item name="weaponFlamethrower">
+	<property name="Tags" value="attPerception,perkDemolitionsExpert,canHaveCosmetic,flamethrower"/>
+	<property name="CustomIcon" value="WeaponFlamethrowerIcon" />
+	<property name="DisplayType" value="flamethrower"/>
+	<property name="HoldType" value="48"/>
+	<property name="Meshfile" value="#@modfolder:Resources/TelricsFlamethrower.unity3d?WeaponFlamethrowerPrefab"/>
+	<property name="Material" value="MMotorToolParts"/> <property name="Weight" value="6"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="EconomicValue" value="1500"/>
+	<property name="UnlockedBy" value="weaponFlamethrowerSchematic"/>
+	<property name="ShowQuality" value="true"/>
+
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+		<property name="Class" value="Ranged"/>
+		<property name="Hitmask_override" value="Arrow"/> <!-- "Class" value="Ranged" is hardcoded to never collide with grass regardless -->
+		<property name="UseMeleeCrosshair" value="true"/>
+		<property name="Single_magazine_usage" value="false"/>
+		<property name="Magazine_items" value="ammoGasCan"/>
+		<property name="Bullet_material" value="metal"/>
+		<property name="Reload_time" value="4.1"/>
+		<property name="Sound_start" value=""/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_reload" value=""/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
+	</property>
+
+	<effect_group name="flamethrower">
+		<passive_effect name="EntityDamage" operation="base_set" value="6" tags="perkDemolitionsExpert"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="10" tags="perkDemolitionsExpert"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="300" tags="perkDemolitionsExpert"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1400,4200" tier="1,6" tags="perkDemolitionsExpert"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDemolitionsExpert"/>
+		<passive_effect name="MaxRange" operation="base_set" value="9" tags="perkDemolitionsExpert"/>
+		<passive_effect name="BlockRange" operation="base_set" value="1" tags="perkDemolitionsExpert"/>
+
+		<passive_effect name="DamageModifier" operation="perc_add" value=".75" tags="wood"/>
+		
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,1,1,1,1" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+		<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="100" tags="perkDemolitionsExpert"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkDemolitionsExpert"/> <!-- random effective rng -->
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDemolitionsExpert"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDemolitionsExpert"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkDemolitionsExpert"/> <!-- random BlockDmg -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDemolitionsExpert"/> <!-- tier bonus -->
+
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDemolitionsExpert"/> <!-- random DegMax -->
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkDemolitionsExpert"/> <!-- random APM -->
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/> <!-- random MagazineSize -->
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkDemolitionsExpert"/> <!-- random WeaponHandling -->
+
+
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1000" tags="perkDemolitionsExpert"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="300" tags="perkDemolitionsExpert"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDemolitionsExpert"/> <!-- 3.5s -->
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value=".5" tags="perkDemolitionsExpert"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value=".5" tags="perkDemolitionsExpert"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0" tags="perkDemolitionsExpert"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0" tags="perkDemolitionsExpert"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0" tags="perkDemolitionsExpert"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0" tags="perkDemolitionsExpert"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1" tags="perkDemolitionsExpert"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="5" tags="perkDemolitionsExpert"/>
+	</effect_group>
+	<effect_group name="Buff Stuff">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+		<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffFlamethrowerFire"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" target="self" buff="buffFlamethrowerFire"/>
+	</effect_group>
+		<effect_group name="new Fire Proc" tiered="false">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+		<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="100"/>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="10">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="11">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+	</effect_group>
+	<effect_group name="always refresh existing Fire Proc" tiered="false">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+		<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="10">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="11">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+	</effect_group>
+
+
+</item>
+
+</append>
+</configs>
