@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Servers>
+	<ServerGroup Name="Tazas Grave" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png" Description="">
+		<Server Name="Tazas Grave 1.6.8 A17.4" Logo="https://raw.githubusercontent.com/MrCerealGuy/Tazas-Grave/master/tazas-grave-logo-333x210.png">
+			<Description>Taza's Grave
+Version: v1.6.9 (A19.4 b7 stable). WIPE required!
+
+Please read CHANGELOG for more information:
+https://github.com/MrCerealGuy/Tazas-Grave/blob/master/CHANGELOG.md
+
+Taza's Grave at 7 Days to Die forum:
+https://community.7daystodie.com/topic/9570-tazas-grave/
+
+Hello white settler in wasteland! If you love it to build great bases and you think grinding resources is wasted time, then you should give this mod a try. Your most important tool will be a powerful Taza's Stone Axe!
+
+Features:
+
+* Increased Crafting Queue from 4 to 10 slots (NEW!)
+* Added HD Wrench modlet by War3zuk (NEW!)
+* Increased the Spawning all over the Place (NEW!)
+* Added Lootable Pallets modlet by Starslayer71002
+* Added Flamethrower modlet by Nanashi
+* Added Bigger Backpack (96 slots) modlet by KhaineGB
+* Added CCTV by Xyth
+  How to use: https://youtu.be/k6mKlqbVuA8
+* Added Radios by Xyth
+* Added Zombie Pinups by Xyth
+* Added HDHQParticles modlet by Dust2Death
+* Added HDHQPlants modlet by Dust2Death
+* Added Simple UI by stedman420
+* Basic survival quests removed (experts don't need this)
+* Modified Taza's stone axe for grinding resources
+* Added recipe for modified Taza's stone axe
+* Added start quest "Craft Taza's stone axe"
+* Toilets and faucets give water
+* Craft casino coins from brass in a forge
+* Changed 1 to 3 skill points per level
+* Added back basic damage bonuses based on quality level.
+  +20% entity damage per level above 1. 
+  (0-100%) +40% block damage per level above 1 (0-200%) 
+* Added Taza's Grave main menu
+* Changed "Near Death Trauma" buff to 600s (10 min)
+* Doubled birds nest feather and egg count
+* Increased drop chance for zombie loot to 25%
+* Added extra input slot to the forge
+* Decreased required iron for iron bars to 25
+* "Can of Acid" now craftable from a Car Battery and Glass Jar
+* Decreased costs for Moldy Bread, only 1 Sham Sandwich needed
+* Oil now craftable from an Empty Glass Jar instead of an Empty Can
+			</Description>
+			<Admin>MrCerealGuy</Admin>
+			<!-- Admin Name(s). Display purposes only.  -->
+			<AdminContact>mrcerealguy@gmx.de</AdminContact>
+			<!-- Contact point, could also be URL. Display purposes only -->
+			<DownloadMode />
+			<!-- Clone, which will use Github and Gitlab hooks to download. Leave blank for a direct download of a zip file. -->
+			<SubscriptionLink />
+			<!-- This is the direct link to a subscription text -->
+			<Version>alpha19.4</Version>
+			<!-- Latest, or specify an beta version string. If other than Latest, will attempt an beta label on a steam download -->
+			<ReleaseNotes>https://github.com/MrCerealGuy/Tazas-Grave/releases/tag/v1.6.9</ReleaseNotes>
+			<!-- Link to a webpage that will show server information, including mods. Used as a web link. -->
+			<Downloads>
+				<Download>https://github.com/MrCerealGuy/Tazas-Grave/archive/v1.6.9.zip</Download>
+			</Downloads>
+		</Server>
+	</ServerGroup>
+</Servers>

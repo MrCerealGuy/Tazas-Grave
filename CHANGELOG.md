@@ -1,5 +1,9 @@
 # Changelog
 
+## 2021-04-24
+v1.6.8 -> v1.6.9 (A19.4 b7 stable; WIPE required)
+- Updated to A19.4 b7 stable
+
 ## 2019-07-16
 v1.6.8 -> master
 - Nerfed Spawning all over the Place

@@ -2,7 +2,7 @@
 
 <img src="tazas-grave-logo.png" height="99px" alt="Taza's Grave logo">
 
-Version: v1.6.8 (A17.4 b4 stable). No WIPE required!
+Version: v1.6.9 (A19.4 b7 stable). WIPE required!
 
 Contact: mrcerealguy@gmx.de
 
