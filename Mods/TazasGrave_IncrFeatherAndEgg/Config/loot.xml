@@ -1,7 +1,7 @@
 <configs>
 
 	<!-- double birds nest feather and egg count -->
-	<set xpath="/lootcontainers/lootcontainer[@id='25']/item[@name='resourceFeather']/@count">8,16</set>
-	<set xpath="/lootcontainers/lootcontainer[@id='25']/item[@name='foodEgg']/@count">1</set>
+	<set xpath="/lootgroup/[@name='groupBirdNest']/item[@name='resourceFeather']/@count">8,16</set>
+	<set xpath="/lootgroup/[@name='groupBirdNest']/item[@name='foodEgg']/@count">1</set>
 
 </configs>

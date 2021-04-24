@@ -3,7 +3,7 @@
 		<!-- The following section handles: The INGAME MAIN MENU : TAZA'S GRAVE DESIGN -->
 		<window name="TAZASGRAVEingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="-100" controller="InGameMenuWindow" cursor_area="true">
 			<texture name="TAZASGRAVE" depth="0" size="788,788" texture="@file:Mods\TazasGrave_InGameMenu\Textures\InGameMenu\tazasgravemenulogo.png" material="Materials/Transparent Colored" pos="-268,340" />
-			<label name="TAZASGRAVEVersion" pos="190, 45" depth="0" size="250,33" text="v1.6.8" font_size="38" effect="outline" color="[white]" justify="center" />
+			<label name="TAZASGRAVEVersion" pos="190, 45" depth="0" size="250,33" text="v1.6.9" font_size="38" effect="outline" color="[white]" justify="center" />
 			
 			<grid name="buttons" pos="0, -150" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
 					<simplebutton name="btnInvite" depth="3" width="250" height="46" caption_key="xuiMenuInvite" font_size="40" />
@@ -12,6 +12,7 @@
 					<simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />
 					<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
 					<simplebutton name="btnExportPrefab" depth="3" width="250" height="46" caption_key="xuiMenuExportPrefab" font_size="40" />
+					<simplebutton name="btnTpPoi" depth="3" width="250" height="46" caption_key="xuiMenuTeleportPoiButton" font_size="40" />
 				</grid>
 		</window>
 		
