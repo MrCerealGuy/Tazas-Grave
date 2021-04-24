@@ -13,8 +13,7 @@ TazasGrave_FaucetsAndToiletsGiveWater	items.xml
 TazasGrave_IncrFeatherAndEgg			loot.xml				
 TazasGrave_IncrSkillpointsPerLevel		progression.xml			
 TazasGrave_LessDeathDebuff				buffs.xml				
-TazasGrave_OilGlassJar					recipes.xml				
-TazasGrave_QualityDamageBonuses			items.xml				
+TazasGrave_OilGlassJar					recipes.xml								
 TazasGrave_Quests						quests.xml				
 TazasGrave_TazasStoneAxe				items.xml				
 										recipes.xml				

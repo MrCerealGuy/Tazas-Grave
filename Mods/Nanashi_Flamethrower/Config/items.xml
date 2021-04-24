@@ -1,5 +1,5 @@
 <configs>
-	<set xpath="/items/item[@name='gunToolNailgun']/effect_group/passive_effect[@name='MagazineSize']/@value">100</set>
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/passive_effect[@name='MagazineSize']/@value">100</set>
 	<append xpath="/items">
 		<item name="gunFlamethrower">
 			<property name="CustomIcon" value="gunBlunderbuss"/><property name="CustomIconTint" value="a0a0ff"/>

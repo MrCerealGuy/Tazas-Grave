@@ -32,9 +32,6 @@ Features/Changelog:
 - Toilets and faucets give water
 - Craft casino coins from brass in a forge
 - Changed 1 to 3 skill points per level
-- Added back basic damage bonuses based on quality level.
-  +20% entity damage per level above 1.  
-  (0-100%) +40% block damage per level above 1 (0-200%)
 - Added Taza's Grave main menu
 - Changed "Near Death Trauma" buff to 600s (10 min)
 - Doubled birds nest feather and egg count

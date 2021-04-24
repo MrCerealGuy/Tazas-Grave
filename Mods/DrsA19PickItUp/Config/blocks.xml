@@ -1,0 +1,486 @@
+<DrsA19PickItUp>
+	<!-- ~~~~~~~~~~~~~~EXTERIORS~~~~~~~~~~~~~~ -->
+	<!--  	BARBED FENCE -->
+	<append xpath="/blocks/block[@name='barbedFence']" >
+		<property name="CanPickup" value="true"/>
+	</append>
+
+	<!--  	BARBED WIRE -->
+	<append xpath="/blocks/block[@name='barbedWireSheet']" >
+		<property name="CanPickup" value="true"/>
+	</append>
+
+	<!-- 	BIRD BATH -->	
+	<append xpath="/blocks/block[@name='birdBathPlanter']">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+	
+	<!-- 	CINDER BLOCKS -->
+	<append xpath="/blocks/block[contains(@name,'cinderBlocks')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="20"/> 
+	</append>
+
+	<!-- 	COW SKULL -->
+	<append xpath="/blocks/block[@name='decoCowSkull']">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="20"/>
+	</append>
+
+	<!-- 	DRIFT WOOD -->
+	<append xpath="/blocks/block[@name='driftwood']">
+		<property name="CanPickup" value="true"/>
+		<property name="FuelValue" value="300"/>
+		<property name="Weight" value="30"/>
+	</append>
+
+	<!-- 	EMBER PILES -->
+	<append xpath="/blocks/block[contains(@name,'emberPile')]">
+		<property name="CanPickup" value="true"/>
+		<property name="FuelValue" value="300"/>
+		<property name="Weight" value="30"/> 
+	</append>
+
+	<!--	FARM PLOTS -->
+	<append xpath="/blocks/block[@name='farmPlotBlock']">
+		<drop event="Destroy" name="farmPlotBlockPlayer" count="1"/>
+	</append>
+
+	<!-- 	LIGHTS ~need to add in all my lights into this file, keep them seperate or not?
+	<append xpath="/blocks/block[@name='porchLight01']">
+		<property name="Class" value=""/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CanPickup" value="true"/>
+		<property name="TakeDelay" value="2"/>
+	</append>-->
+
+	<!-- 	MINES -->
+	<set xpath="/blocks/block[@name='mineCandyTin']/property[@name='CanPickup']/@value">true</set>
+
+	<!-- 	PLANTS IN THE WILD -->
+	<append xpath="/blocks/block[contains(@name,'3Harvest') and not(contains(@name,'Player'))]">
+		<property name="Class" value="CropsGrown"/>
+	</append>
+
+	<!-- 	PLANTS BY PLAYERS -->
+	<append xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']">
+		<property name="Extends" value="plantedAloe3Harvest" param1="Class"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']">
+		<property name="Extends" value="plantedBlueberry3Harvest" param1="Class"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']">
+		<property name="Extends" value="plantedChrysanthemum3Harvest" param1="Class"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']">
+		<property name="Extends" value="plantedCoffee3Harvest" param1="Class"/>
+	</append>	
+	<append xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']">
+		<property name="Extends" value="plantedCorn3Harvest" param1="Class"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']">
+		<property name="Extends" value="plantedCotton3Harvest" param1="Class"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']">
+		<property name="Extends" value="plantedGoldenrod3Harvest" param1="Class"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']">
+		<property name="Extends" value="plantedGraceCorn3Harvest" param1="Class"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedHop3HarvestPlayer']">
+		<property name="Extends" value="plantedHop3Harvest" param1="Class"/>
+	</append>	
+	<append xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']">
+		<property name="Extends" value="plantedMushroom3Harvest" param1="Class"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']">
+		<property name="Extends" value="plantedPotato3Harvest" param1="Class"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']">
+		<property name="Extends" value="plantedPumpkin3Harvest" param1="Class"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedSnowberry3HarvestPlayer']">
+		<property name="Extends" value="plantedSnowberry3Harvest" param1="Class"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']">
+		<property name="Extends" value="plantedYucca3Harvest" param1="Class"/>
+	</append>
+
+	<!-- 	SANDBAGS 	-->
+	<append xpath="/blocks/block[contains(@name, 'sandbag')]">	
+		<property name="CanPickup" value="true" param1="sandbagBlockVariantHelper"/>
+		<property name="Weight" value="20"/> 
+	</append>
+	
+	<!-- 	SCRAP METAL PILE -->	
+	<append xpath="/blocks/block[@name='scrapMetalPile']">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+
+	<!-- 	TRAPS -->
+	<append xpath="/blocks/block[@name='trapSpikesNew']" >
+		<property name="CreativeMode" value="Player"/>
+		<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='trapSpikesWoodDmg0']">
+		<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='trapSpikesIronDmg0']">
+		<property name="CanPickup" value="true"/>
+	</append>
+
+	<!-- 	WAGON WHEEL -->
+	<append xpath="/blocks/block[@name='decoWildWestWagon']">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoWildWestWagonWheelBack']">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+
+	<!-- 	WOOD STACK -->
+	<append xpath="/blocks/block[contains(@name,'modularFireWoodStack')]">
+		<property name="CanPickup" value="true"/>
+		<property name="FuelValue" value="500"/>
+		<property name="Weight" value="30"/> 
+	</append>
+
+
+	<!-- ~~~~~~~~~~~~~~CAR DECO~~~~~~~~~~~~~~ -->
+	<append xpath="/blocks/block[contains(@name,'decoCarRadiator')]">
+		<property name="CanPickup" value="true" param1="resourceRadiator"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarBack')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarSeat')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarFender')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarFrontBumper')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarFrontDoor')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarHood')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarMotor')]">
+		<property name="CanPickup" value="true" param1="smallEngine"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarTrunk')]">
+		<property name="Extends" value="decoEntityMetalMaster"/>
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoCarPartsRamp']">
+		<property name="Extends" value="decoEntityMetalMaster"/>
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+
+	<!--  	TIRES -->
+	<append xpath="/blocks/block[@name='decoCarTireSmallFlat']">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoCarTireFlat']">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="20"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoCarTirePile']">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoCarTireStack']">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoCarWheelFlat']">
+		<property name="CanPickup" value="true" param1="vehicleWheels"/>
+	</append>
+
+
+	<!-- ~~~~~~~~~~~~~~INTERIORS~~~~~~~~~~~~~~ -->
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntFileCabinetShortOpen,cntFileCabinetShortClosed,cntFileCabinetTallOpen,cntFileCabinetTallClosed,cntToolBoxOpen,cntToolBoxClosed,cntRollingToolBoxOpen,cntRollingToolBoxClosed</append>
+	<!-- APPLIANCES -->
+	<append xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open']" >
+		<property name="CanPickup" value="true" param1="cntMicrowaveOvenVer1Closed"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntToaster']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="40"/>
+	</append>
+
+	<!--  BLINDS & CURTAINS -->
+	<append xpath="/blocks/block[@name='commercialBlindsTop']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="10"/>
+		<property name="Material" value="MresourceScrapPolymers"/>
+	</append> 
+	<append xpath="/blocks/block[@name='curtain_top1Sheet3']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="10"/>
+	</append> 
+	<append xpath="/blocks/block[@name='miniblindTopSheet']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="10"/>
+		<property name="Material" value="MresourceScrapPolymers"/>
+	</append>
+
+	<!-- 	CASH REGISTER EMPTY -->
+	<append xpath="/blocks/block[@name='cntCashRegisterEmpty']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/> 
+	</append>
+
+	<!-- 	COOLER -->
+	<append xpath="/blocks/block[@name='cntCoolerOpen']" >
+		<property name="CanPickup" value="true" param1="cntCoolerClosed"/>
+		<property name="Weight" value="60"/> 
+	</append>
+
+	<!-- 	EXERCISE EQUIPMENT -->
+	<append xpath="/blocks/block[@name='decoBenchPress']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoStationaryBike']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoTreadmill']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoWeightBar']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoBasketBallHoop']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoMetalSlide']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="50"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoSwingSet']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="50"/>
+	</append>
+
+	<!-- 	ELECTRONICS -->
+	<append xpath="/blocks/block[@name='decoComputerDeskTopPC']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="50"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name, 'decoComputer')]">	
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="20"/> 
+	</append>
+	<append xpath="/blocks/block[@name='tv']" >
+		<property name="CanPickup" value="true"/>
+	</append>
+
+	<!--  	FURNITURE -->
+	<append xpath="/blocks/block[contains(@name,'Bed') and not(contains(@name,'terr'))]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='barStool']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntBookcaseEmpty']">
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'cntFileCabinet') and not(contains(@name,'Open'))]">
+		<property name="CanPickup" value="true" param1="metalFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'cntLockers') and not(contains(@name,'Closed'))]">
+		<property name="CanPickup" value="true" param1="metalFurnitureBlockVariantHelper"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntMetalDesk02Open']">
+		<property name="CanPickup" value="true" param1="metalFurnitureBlockVariantHelper"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntNightstandOpen']">
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntWoodDesk01Open']">
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+	</append>
+	<append xpath="/blocks/block[@name='coffeeTable']">
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoClassicDogHouse']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoClawFootBathTub']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoLargePetCage']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoPicnicTable']">
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoPoolTable']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="150"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoReptileTerrarium']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='endTable']">
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='parkBenchA']" >
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='pew_segment01']" >
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name, 'Sofa')]">	
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="20"/> 
+	</append>
+	<append xpath="/blocks/block[@name='rScrapIronTable']">
+		<property name="CanPickup" value="true" param1="metalFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='rustyIronTable']">
+		<property name="CanPickup" value="true" param1="metalFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='schoolDesk']">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='tableDynamic']">
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='woodTable']">
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="60"/>
+	</append>
+
+	<!-- 	LAUNDRY BASKET -->
+	<append xpath="/blocks/block[@name='cntLaundryBasketVer1Empty']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="30"/>
+	</append>
+
+	<!-- 	LUGGAGE -->
+	<append xpath="/blocks/block[@name='cntLuggageMediumOpen']" >
+		<property name="CanPickup" value="true" param1="cntLuggageMediumClosed"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntLuggageBigOpen']" >
+		<property name="CanPickup" value="true" param1="cntLuggageBigClosed"/>
+		<property name="Weight" value="80"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntLuggagePileBOpen']" >
+		<property name="CanPickup" value="true" param1="cntLuggagePileBClosed"/>
+		<property name="Weight" value="160"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntLuggagePileAOpen']" >
+		<property name="CanPickup" value="true" param1="cntLuggagePileAClosed"/>
+		<property name="Weight" value="160"/>
+	</append>
+
+	<!-- 	PALLETS EMPTY -->
+	<append xpath="/blocks/block[@name='palletEmpty']">
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="20"/>
+	</append>
+	<append xpath="/blocks/block[@name='palletEmptyStack']">
+		<property name="CanPickup" value="true" param1="cntWoodFurnitureBlockVariantHelper"/>
+		<property name="Weight" value="60"/>
+	</append>
+
+	<!-- 	PAINTINGS -->
+	<append xpath="/blocks/block[contains(@name, 'painting')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="10"/>
+	</append>
+
+	<!-- 	PICTURE FRAME -->
+	<append xpath="/blocks/block[contains(@name, 'pictureFrame')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="10"/>
+	</append>
+
+	<!-- 	SHOPPING CART -->
+	<append xpath="/blocks/block[@name='cntShoppingCartEmpty']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="20"/> 
+	</append>
+	<append xpath="/blocks/block[@name='cntShoppingBasketEmpty']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="20"/> 
+	</append>	
+
+	<!-- 	SIGNS -->
+	<append xpath="/blocks/block[starts-with(@name,'sign')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+
+	<!-- 	TOOL BOXES -->
+	<append xpath="/blocks/block[@name='cntToolBoxOpen']" >
+		<property name="CanPickup" value="true" param1="cntToolBoxClosed"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntRollingToolBoxOpen']" >
+		<property name="CanPickup" value="true" param1="cntRollingToolBoxClosed"/>
+		<property name="Weight" value="120"/>
+	</append>
+
+	<!-- 	TRASH CAN-->
+	<append xpath="/blocks/block[@name='cntDomedTrashCanEmpty']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+
+	<!-- 	UTILITY CART -->
+	<append xpath="/blocks/block[@name='cntUtilityCartEmpty']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+
+	<!-- 	WINE BARREL -->
+	<append xpath="/blocks/block[@name='wineBarrel']" >
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="60"/>
+	</append>
+
+</DrsA19PickItUp>
