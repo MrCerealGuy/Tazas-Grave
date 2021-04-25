@@ -20,7 +20,7 @@ Features/Changelog:
   How to use: https://youtu.be/k6mKlqbVuA8
 - Added Radios by Xyth
 - Added Zombie Pinups by Xyth
-- Added Simple UI by stedman420
+- Added HUD Plus by RilesPlus (NEW!)
 - Basic survival quests removed (experts don't need this)
 - Modified Taza's stone axe for grinding resources
 - Added recipe for modified Taza's stone axe
@@ -30,7 +30,7 @@ Features/Changelog:
 - Changed 1 to 3 skill points per level
 - Added Taza's Grave main menu
 - Changed "Near Death Trauma" buff to 600s (10 min)
-- Doubled birds nest feather and egg count
+- Increased birds nest feather and egg count
 - Increased drop chance for zombie loot to 25%
 - Added extra input slot to the forge
 - Decreased required iron for iron bars to 25
