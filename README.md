@@ -13,7 +13,6 @@ Hello white settler in wasteland! If you love it to build great bases and you th
 Features/Changelog:
 
 - Increased Crafting Queue from 4 to 10 slots
-- Added HD Wrench modlet by War3zuk
 - Added Lootable Pallets modlet by Starslayer71002
 - Added Telrics Flamethrower modlet (NEW!)
 - Added Bigger Backpack (96 slots) modlet by KhaineGB

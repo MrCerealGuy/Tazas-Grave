@@ -17,8 +17,6 @@ TazasGrave_OilGlassJar					recipes.xml
 TazasGrave_Quests						quests.xml				
 TazasGrave_TazasStoneAxe				items.xml				
 										recipes.xml				
-TazasGrave_HDNailgun					items.xml				
-										recipes.xml				
 TazasGrave_ZombieLootDropProb			entityclasses.xml		
 TelricsFlamethrower						buffs.xml				
 										item_modifiers.xml		
@@ -28,8 +26,6 @@ TelricsFlamethrower						buffs.xml
 										sounds.xml				
 										traders.xml				
 										ui_display.xml			
-War3zuk_HDWrench						items.xml				
-										recipes.xml				
 
 
 Blocks
@@ -39,7 +35,7 @@ Xyth_CCTV								blocks.xml
 										recipes.xml				
 Xyth_ZombiePinups						blocks.xml				
 										recipes.xml				
-Starslayer71002_STLootablePallets		blockplaceholders.xml	
+STLootablePallets-1.2					blockplaceholders.xml	
 										blocks.xml				
 										loot.xml				
 Drs_Pick_Up_Stuff						blocks.xml				

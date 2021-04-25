@@ -1,0 +1,124 @@
+<lootablePallets>
+	<append xpath="/blocks">
+		<block name="Electronics Store Pallet, TV Fallen"> <!--Electronics Store Pallets-->
+			<property name="Extends" value="cntStoreElectronicsPalletTvFallen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="500"/>
+		</block>
+		<block name="Electronics Store Pallet, TV Standing">
+			<property name="Extends" value="cntStoreElectronicsPalletTvStanding"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="500"/>
+		</block>	
+		<block name="Pallet, White Bags, Base"> <!--White Bags Pallet-->
+			<property name="Extends" value="palletWhiteBagsBase"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="501"/>
+		</block>
+		<block name="Pallet, White Bags, Tile">
+			<property name="Extends" value="palletWhiteBagsTile"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="501"/>
+		</block>
+		<block name="Pallet, White Bags, Top">
+			<property name="Extends" value="palletWhiteBagsTop"/>
+			<property name="Class" value="Loot"/>		
+			<property name="LootList" value="501"/>
+		</block>
+		<block name="Pallet, White Bags, Partial 1">
+			<property name="Extends" value="palletWhiteBagsPartial1"/>
+			<property name="Class" value="Loot"/>		
+			<property name="LootList" value="501"/>
+		</block>
+		<block name="Pallet, White Bags, Partial 2">
+			<property name="Extends" value="palletWhiteBagsPartial2"/>
+			<property name="Class" value="Loot"/>		
+			<property name="LootList" value="501"/>
+		</block>
+		<block name="Pallet, White Bags, Loose">
+			<property name="Extends" value="palletWhiteBagsLoose"/>
+			<property name="Class" value="Loot"/>		
+			<property name="LootList" value="501"/>
+		</block>
+		<block name="Pallet, Brown Boxes, Base"> <!--Brown Boxes Pallets-->
+			<property name="Extends" value="palletBrownBoxesBase"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="502"/>
+		</block>
+		<block name="Pallet, Brown Boxes, Tile">
+			<property name="Extends" value="palletBrownBoxesTile"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="502"/>
+		</block>
+		<block name="Pallet, Brown Boxes, Top">
+			<property name="Extends" value="palletBrownBoxesTop"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="502"/>
+		</block>
+		<block name="Pallet, Brown Boxes, Loose">
+			<property name="Extends" value="palletBrownBoxesLoose"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="502"/>
+		</block>
+		<block name="Pallet, Bricks, Base"> <!--Bricks Pallets-->
+			<property name="Extends" value="palletBricksBase"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="503"/>
+		</block>
+		<block name="Pallet, Bricks, Tile">
+			<property name="Extends" value="palletBricksTile"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="503"/>
+		</block>
+		<block name="Pallet, Bricks, Top">
+			<property name="Extends" value="palletBricksTop"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="503"/>
+		</block>
+		<block name="Pallet, Bricks, Partial 1">
+			<property name="Extends" value="palletBricksPartial1"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="503"/>
+		</block>
+		<block name="Pallet, Bricks, Partial 2">
+			<property name="Extends" value="palletBricksPartial2"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="503"/>
+		</block>
+		<block name="Pallet, Bricks, Loose">
+			<property name="Extends" value="palletBricksLoose"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="503"/>
+		</block>
+		<block name="Pallet, Blue Tarp, Base"> <!--Blue Tarp Pallets-->
+			<property name="Extends" value="palletBlueTarpBase"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="504"/>
+		</block>
+		<block name="Pallet, Blue Tarp, Tile">
+			<property name="Extends" value="palletBlueTarpTile"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="504"/>
+		</block>
+		<block name="Pallet, Compressed Cardboard"> <!--Compressed Cardboard Pallets-->
+			<property name="Extends" value="palletCompressedCardboard"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="505"/>
+		</block>
+		<block name="Firewood Stack A"> <!--Firewood Stacks-->
+			<property name="Extends" value="modularFireWoodStackA"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="506"/>
+		</block>
+		<block name="Firewood Stack B">
+			<property name="Extends" value="modularFireWoodStackB"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="506"/>
+		</block>
+			<block name="Firewood Stack C">
+			<property name="Extends" value="modularFireWoodStackC"/>
+			<property name="Class" value="Loot"/>	
+			<property name="LootList" value="506"/>
+		</block>
+	</append>
+</lootablePallets>

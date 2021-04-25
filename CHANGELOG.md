@@ -5,6 +5,9 @@ v1.6.8 -> v1.6.9 (A19.4 b7 stable; WIPE required)
 - Removed Quality Damage Bonuses modlet
 - Removed Spawning Increase modlet
 - Removed Nanashi Flamethrower modlet
+- Removed HD Nailgun modlet
+- Removed HD Wrench modlet by War3zuk
+- Updated STLootablePallets
 - Added Telrics Flamethrower modlet
 - Updated to A19.4 b7 stable
 

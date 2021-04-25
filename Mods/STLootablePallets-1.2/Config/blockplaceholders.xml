@@ -1,0 +1,76 @@
+<lootablePallets>
+	<append xpath="/blockplaceholders">
+		<placeholder name="cntStoreElectronicsPalletTvFallen"> <!--Electronics Store Pallets-->
+			<block name="Electronics Store Pallet, TV Fallen" prob="1"/>
+		</placeholder>
+		<placeholder name="cntStoreElectronicsPalletTvStanding">
+			<block name="Electronics Store Pallet, TV Standing" prob="1"/>
+		</placeholder>
+		<placeholder name="palletWhiteBagsBase"> <!--White Bags Pallets-->
+			<block name="Pallet, White Bags, Base" prob="1"/>
+		</placeholder>
+		<placeholder name="palletWhiteBagsTile">
+			<block name="Pallet, White Bags, Tile" prob="1"/>
+		</placeholder>
+		<placeholder name="palletWhiteBagsTop">
+			<block name="Pallet, White Bags, Top" prob="1"/>
+		</placeholder>
+		<placeholder name="palletWhiteBagsPartial1">
+			<block name="Pallet, White Bags, Partial 1" prob="1"/>
+		</placeholder>
+		<placeholder name="palletWhiteBagsPartial2">
+			<block name="Pallet, White Bags, Partial 2" prob="1"/>
+		</placeholder>
+		<placeholder name="palletWhiteBagsLoose">
+			<block name="Pallet, White Bags, Loose" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBrownBoxesBase"> <!--Brown Boxes Pallets-->
+			<block name="Pallet, Brown Boxes, Base" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBrownBoxesTile">
+			<block name="Pallet, Brown Boxes, Tile" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBrownBoxesTop">
+			<block name="Pallet, Brown Boxes, Top" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBrownBoxesLoose">
+			<block name="Pallet, Brown Boxes, Loose" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBricksBase"> <!--Bricks Pallets-->
+			<block name="Pallet, Bricks, Base" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBricksTile">
+			<block name="Pallet, Bricks, Tile" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBricksTop">
+			<block name="Pallet, Bricks, Top" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBricksPartial1">
+			<block name="Pallet, Bricks, Partial 1" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBricksPartial2">
+			<block name="Pallet, Bricks, Partial 2" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBricksLoose">
+			<block name="Pallet, Bricks, Loose" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBlueTarpBase"> <!--Blue Tarp Pallets-->
+			<block name="Pallet, Blue Tarp, Base" prob="1"/>
+		</placeholder>
+		<placeholder name="palletBlueTarpTile">
+			<block name="Pallet, Blue Tarp, Tile" prob="1"/>
+		</placeholder>
+		<placeholder name="palletCompressedCardboard"> <!--Compressed Cardboard Pallets-->
+			<block name="Pallet, Compressed Cardboard" prob="1"/>
+		</placeholder>
+		<placeholder name="modularFireWoodStackA"> <!--Firewood Stacks-->
+			<block name="Firewood Stack A" prob="1"/>
+		</placeholder>
+		<placeholder name="modularFireWoodStackB">
+			<block name="Firewood Stack B" prob="1"/>
+		</placeholder>
+		<placeholder name="modularFireWoodStackC">
+			<block name="Firewood Stack C" prob="1"/>
+		</placeholder>
+	</append>
+</lootablePallets>
