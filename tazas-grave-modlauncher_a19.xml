@@ -15,19 +15,15 @@ Hello white settler in wasteland! If you love it to build great bases and you th
 
 Features:
 
-* Increased Crafting Queue from 4 to 10 slots (NEW!)
-* Added HD Wrench modlet by War3zuk (NEW!)
-* Increased the Spawning all over the Place (NEW!)
+* Increased Crafting Queue from 4 to 10 slots
 * Added Lootable Pallets modlet by Starslayer71002
-* Added Flamethrower modlet by Nanashi
+* Added Telrics Flamethrower modlet (NEW!)
 * Added Bigger Backpack (96 slots) modlet by KhaineGB
 * Added CCTV by Xyth
   How to use: https://youtu.be/k6mKlqbVuA8
 * Added Radios by Xyth
 * Added Zombie Pinups by Xyth
-* Added HDHQParticles modlet by Dust2Death
-* Added HDHQPlants modlet by Dust2Death
-* Added Simple UI by stedman420
+* Added HUD Plus by RilesPlus (NEW!)
 * Basic survival quests removed (experts don't need this)
 * Modified Taza's stone axe for grinding resources
 * Added recipe for modified Taza's stone axe
@@ -35,18 +31,16 @@ Features:
 * Toilets and faucets give water
 * Craft casino coins from brass in a forge
 * Changed 1 to 3 skill points per level
-* Added back basic damage bonuses based on quality level.
-  +20% entity damage per level above 1. 
-  (0-100%) +40% block damage per level above 1 (0-200%) 
 * Added Taza's Grave main menu
 * Changed "Near Death Trauma" buff to 600s (10 min)
-* Doubled birds nest feather and egg count
+* Increased birds nest feather and egg count
 * Increased drop chance for zombie loot to 25%
 * Added extra input slot to the forge
 * Decreased required iron for iron bars to 25
 * "Can of Acid" now craftable from a Car Battery and Glass Jar
 * Decreased costs for Moldy Bread, only 1 Sham Sandwich needed
 * Oil now craftable from an Empty Glass Jar instead of an Empty Can
+* Doubled Block Range of Taza's Stone Axe
 			</Description>
 			<Admin>MrCerealGuy</Admin>
 			<!-- Admin Name(s). Display purposes only.  -->
