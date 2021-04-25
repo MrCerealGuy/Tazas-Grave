@@ -47,21 +47,12 @@ Xyth_SteelBars							blocks.xml
 										recipes.xml				
 
 
-Biomes
-----------------------------------------------------------------
-
-Dust2Death_HDHQParticles				biomes.xml				
-Dust2Death_HDHQPlants					biomes.xml				
-										blocks.xml				
-
-
 UI
 ----------------------------------------------------------------
 
 TazasGrave_3ForgeInputSlots				XUi\windows.xml			
 										XUi\xui.xml				
-TazasGrave_HUD							XUi\windows.xml			
-										XUi\xui.xml				
+Riles-HUDPlus1.07						XUi\windows.xml			
 TazasGrave_InGameMenu					XUi\windows.xml			
 										XUi\xui.xml				
 TazasGrave_MainMenu						XUi_Menu\controls.xml	

@@ -7,8 +7,15 @@ v1.6.8 -> v1.6.9 (A19.4 b7 stable; WIPE required)
 - Removed Nanashi Flamethrower modlet
 - Removed HD Nailgun modlet
 - Removed HD Wrench modlet by War3zuk
+- Removed Dust2Death_HDHQParticles
+- Removed Dust2Death_HDHQPlants
 - Updated STLootablePallets
 - Added Telrics Flamethrower modlet
+- Updated Xyth_CCTV modlet
+- Updated Xyth_Steelbars modlet
+- Updated Xyth_ZombiePinups modlet
+- Removed Simple UI modlet by stedman420
+- Added Riles-HUDPlus1.07 modlet by RilesPlus
 - Updated to A19.4 b7 stable
 
 ## 2019-07-16

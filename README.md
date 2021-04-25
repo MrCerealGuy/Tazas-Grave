@@ -20,8 +20,6 @@ Features/Changelog:
   How to use: https://youtu.be/k6mKlqbVuA8
 - Added Radios by Xyth
 - Added Zombie Pinups by Xyth
-- Added HDHQParticles modlet by Dust2Death
-- Added HDHQPlants modlet by Dust2Death
 - Added Simple UI by stedman420
 - Basic survival quests removed (experts don't need this)
 - Modified Taza's stone axe for grinding resources
